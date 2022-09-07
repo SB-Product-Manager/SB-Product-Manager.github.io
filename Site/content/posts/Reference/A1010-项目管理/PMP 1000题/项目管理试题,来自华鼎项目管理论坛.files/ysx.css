@@ -1,0 +1,57 @@
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover:unknown {
+	COLOR: #000000; TEXT-DECORATION: underline overline
+}
+TD {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; COLOR: #000000; WORD-BREAK: break-all; FONT-FAMILY: "宋体"
+}
+BODY {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; COLOR: #000000; WORD-BREAK: break-all; FONT-FAMILY: "宋体"
+}
+.stedit {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #333333 1px solid; BORDER-BOTTOM: #333333 1px solid; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #8399b1
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover:unknown {
+	COLOR: #000000; TEXT-DECORATION: underline overline
+}
+TD {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; COLOR: #000000; WORD-BREAK: break-all; FONT-FAMILY: "宋体"
+}
+BODY {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; COLOR: #000000; WORD-BREAK: break-all; FONT-FAMILY: "宋体"
+}
+SELECT {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: 宋体; BACKGROUND-COLOR: #8399b1
+}
+INPUT {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: MS Shell Dlg,Tahoma, sans-serif; BACKGROUND-COLOR: #8399b1
+}
+TEXTAREA {
+	FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: MS Shell Dlg,Tahoma, sans-serif; BACKGROUND-COLOR: #8399b1
+}
+OPTION {
+	FONT-SIZE: 12px; COLOR: #000000; BACKGROUND-COLOR: #8399b1
+}
+FORM {
+	FONT-SIZE: 12px; FONT-FAMILY: MS Shell Dlg,tahoma,宋体
+}
+.pbz {
+	LINE-HEIGHT: 180%
+}
+.p1 {
+	LINE-HEIGHT: 140%
+}
+.pbz {
+	LINE-HEIGHT: 180%
+}
