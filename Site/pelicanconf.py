@@ -15,7 +15,7 @@ MENUITEMS = (
     ('Resume', 'https://sunshubin.sb-hrms.com/'),
     ('About', 'https://home.sb-hrms.com/pages/about.html'),
     ('Resource', 'https://home.sb-hrms.com/pages/resource.html'),
-    ('Reference', 'https://github.com/SB-SYB/Lawsuit/tree/main/Site/content/posts/casestudy'),
+    ('Reference', 'https://github.com/SB-Product-Manager/SB-Product-Manager.github.io/tree/main/Site/content/posts/Reference'),
 )
 
 # Feed generation is usually not desired when developing
