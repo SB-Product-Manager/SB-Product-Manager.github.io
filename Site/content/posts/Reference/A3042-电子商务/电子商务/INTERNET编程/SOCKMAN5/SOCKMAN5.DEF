@@ -1,0 +1,13 @@
+;-------------------------------------
+; SockMan.DEF module definition file
+;-------------------------------------
+
+NAME           SockMan5
+
+DESCRIPTION    'Windows Sockets Program Manager'
+EXETYPE        WINDOWS
+STUB           'WINSTUB.EXE'
+CODE           PRELOAD MOVEABLE DISCARDABLE
+DATA           PRELOAD MOVEABLE MULTIPLE
+HEAPSIZE       1024
+STACKSIZE      32768

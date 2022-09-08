@@ -1,0 +1,7 @@
+SOCKFTP.FRM
+SOCKFTP.BAS
+ProjWinSize=96,585,248,139
+ProjWinShow=2
+IconForm="frmSockFTP"
+Title="SOCKFTP"
+ExeName="SOCKFTP.EXE"

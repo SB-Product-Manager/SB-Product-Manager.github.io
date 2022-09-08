@@ -1,0 +1,186 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+<meta NAME="Author" CONTENT="曹勇">
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>cao\chap9</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<font SIZE="+0" FACE="宋体"><b>
+
+<p>9.集成化网点管理和项目开发</b></font> <br>
+<img src="9-1-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-1-tit.gif" width="306" height="72" alt="9-1-tit.gif (5867 bytes)"><br>
+<font FACE="宋体" size="3">Visual InterDev提供了集成在开发环境中广泛的网点管理特性.这些特性使得用户在开发环境中能够浏览网点,就象在网络服务器上一样.项目系统提供了开发者建立新站点, 
+浏览已存在的网点,建立或添加以及删除在网点上的文件或文件夹的能力.以下列出了项目系统所特有的网点管理特性:</font><a name="par1"></a>
+
+<ul>
+  <li><font FACE="宋体" size="3"><b>用Web sites wizard建立新的站点.</b>Wizard可以逐步地指导用户建立新的网点,并在所选择的网络服务器上建立新的站点.</font></li>
+  <li><font FACE="宋体" size="3"><b>对网点上任意项进行直接文件操作.</b>开发者可以在集成环境中使用浏览文件特性对网点上的任何文件拷贝,删除,添加和重命名以及编辑.</font></li>
+  <li><font FACE="宋体" size="3"><b>提供向网点引入项目文件和目录的能力.</b>开发者可以使用输入文件和文件夹命令引入网点任何已存在的当地和网络资源.</font></li>
+  <li><font FACE="宋体" size="3"><b>拷贝Web命令.</b>通过使用网点拷贝命令,一个完整的网点能够从一个服务器移植到另一个服务器上去.这对于把一个网点从分级的服务器移植到产品服务器上是十分有用的.</font></li>
+  <li><font FACE="宋体" size="3"><b>对象特性.</b>开发者在网点内任意对象上单击鼠标右键, 
+    Visual InterDev将会显示一对象特性页,其中包含了诸如文件大小,修改日期和所有的与文件的内外链接等有用的信息.</font></li>
+</ul>
+
+<p><img src="9-2-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-2-tit.gif" width="306" height="72" alt="9-2-tit.gif (4832 bytes)"></p>
+
+<p><font FACE="宋体" size="3">项目系统能够跟踪与网点相连的各种链接,以确保其有效性.例如,开发者重命名了一个文件,系统将会自动探测到站点上含有其名字作为URL(超级链接)一部分的所有页,修改这些链接名以避免链接失败.另外,如果一个文件被移动或者站点重新调整了Visual 
+InterDev,系统将会以这种方式自动修复链接.最后,如果有主页或文件被删除, 
+Visual InterDev将会通知站点上所有与之相关的用户.</font><br>
+<img src="9-3-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-3-tit.gif" width="306" height="72" alt="9-3-tit.gif (4422 bytes)"><a name="par3"></p>
+</a>
+
+<table BORDER="0" CELLSPACING="0" CELLPADDING="0" COLS="1" WIDTH="61%">
+  <tr>
+    <td><p align="center"><font SIZE="+0" FACE="宋体">链接浏览</font> <img SRC="image5FR.JPG" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/image5FR.JPG" HEIGHT="377" WIDTH="508"> </td>
+  </tr>
+  <tr>
+    <td><font SIZE="-1" FACE="宋体"><i>图13：链接浏览允许开发者对网络站点逻辑结构进行可视化，链接浏览将一个站点内相互调用的两个HTML主页和与之相关的有关资源（诸如Gif图象和Wav文件）用图来表述。其中失效链接描述为红色</i></font></td>
+  </tr>
+</table>
+<font FACE="宋体"><font SIZE="+0">
+
+<p></font><font size="3">除了通过文件浏览来提供开发者自动链接修复和站点管理能力外,Visual 
+InterDev还有其独特的网络可视化工具,称作链接浏览.链接浏览提供了网点的图表显示,可见地显示了站点上各个页之间的逻辑关系.例如,链接浏览可以可视地描述出一特定的HTML业同站内外的各个链接.开发者可以扩展或折叠视图,根据需要显示网点的多个页或其某部分.除了链接的图解显示,链接浏览也可以列出每个文件的特别信息,使用可视图标列出其文件类型,例如HTML页,当前活动页,GIF/JPG图象,ActiveX控件,Java 
+Applets,2.5D界面部件文件,甚至实时控件.链接浏览将会以红色显示所有</font>失效<font size="3">的链接,同时也显示除Internet链接之外的外部链接.因此,链接浏览提供了站点的实时浏览,开发者可以在图解浏览中双击某个文件即可对其进行编辑.</font></font><big><big><big><br>
+</big></big></big><font FACE="宋体" size="3">通过链接浏览,开发者也可以筛选显示在视图上的信息.开发者可以通过筛选显示以下内容(可以任意组合):</font>
+
+<ul>
+  <li><font FACE="宋体" size="3">HTML页</font></li>
+  <li><font FACE="宋体" size="3">多媒体文件</font></li>
+  <li><font FACE="宋体" size="3">可执行文件</font></li>
+  <li><font FACE="宋体" size="3">文档</font></li>
+  <li><font FACE="宋体" size="3">外部文件</font></li>
+  <li><font FACE="宋体" size="3">主链接</font></li>
+  <li><font FACE="宋体" size="3">次级链接</font></li>
+</ul>
+<font SIZE="+0" FACE="宋体"><b>
+
+<p>9.4 利用Visual SourceSafe进行多用户开发和集成</b></font> </p>
+
+<p><font FACE="宋体" size="3">Visual InterDev通过Microsoft Visual SourceSafe 5.0来为用户提供集成资源管理功能.不同组织可以通过Visual 
+SourceSafe将一个网络项目置于控制之下.资源管理功能在同时有一组用户在网点上工作时对特别有用,它提供了对站点上所有网点明确的出入登记能力.除此之外,Visual 
+SourceSafex修订版的跟踪和合并特性帮助了开发者保护其工作----使得他们能够把早期版本的文件压缩到标准水平或者比较两个不同版本文件之间的细节差异.</font><big><big><big><br>
+</big></big></big><font FACE="宋体" size="3">Visual InterDev和Visual SourceSafe集成在一起,使得项目能够轻易地置于资源控制之下而不需要Visual 
+SourceSafe单独安装在Developer workstation.</font><big><big><big><br>
+</big></big></big><font FACE="宋体" size="3">实际上,所有Visual SourceSafe功能在服务器上执行.对于处于资源控制之下的Visual 
+InterDev的项目, Visual SourceSafe承担以下功能:</font>
+
+<ul>
+  <li><font FACE="宋体" size="3"><b>自动建立Visual SourceSafe项目.</b>当一项目置于资源控制之下时, 
+    Visual InterDev将在网络服务器上自动创建Visual SourceSafe项目,并且将网点上的内容添加到资源控制数据库.</font></li>
+  <li><font FACE="宋体" size="3"><b>文件的出入登记.</b>当开发者需要对网点上的文件独享编辑时,Visual 
+    InterDev会在打开文件之前明确地将文件从Visual SourceSafe项目中划分出去.如果有其他用户以将此文件划分出去(例如,另一个Visual 
+    InterDev用户或者FrontPage用户对同一项目进行操作时),开发者将会被通知其所得的文件是只读的.</font></li>
+</ul>
+
+<p align="left"><font FACE="宋体" size="3"><b>对Visual SourceSafe项目自动的组件添加.</b>当开发者为网点创建新的文件时,Visual 
+InterDev将会使用Visual SourceSafe项目自动将这些组件置于资源控制下.例如,如果某个开发者选择输入一个含有10个文件和两个字目录的文件夹时,Visual 
+InterDev自动将其添加入Visual SourceSafe项目.如果用户创建一个新文件诸如HTML页,Visual 
+InterDev会在Visual SourceSafe项目中建立一个新的登录,并自动将其标记划分出去供开发者编辑.<br>
+</font><br>
+<img src="9-5-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-5-tit.gif" width="306" height="72" alt="9-5-tit.gif (4908 bytes)"></p>
+
+<p><font FACE="宋体" size="3">除了为开发基于服务器的网络应用程序和数据库驱动的网点程序所设计的可视化集成环境之外,Visual 
+InterDev还提供了开发主页的集成工具,包括客户端主页的编写, ActiveX组件和Java 
+Applets.除此之外,Visual InterDev也包括了多媒体编辑工具: Microsoft 
+图象制作器(MIC)和Microsoft 音乐创作器(MMP).这些工具使得开发者能够很容易地为网点开发音乐和图象.</font><img src="9-6-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-6-tit.gif" width="530" height="72" alt="9-6-tit.gif (6944 bytes)"><a name="par6"></p>
+</a>
+
+<p><font FACE="宋体" size="3">Visual InterDev配有获奖的FrontPage 97编辑器.因此,开发人员和团体及用户可以共享同一具有领先技术的HTML编辑环境,根据其不同的需求来使用所供的特定工具.</font><br>
+<img src="9-7-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-7-tit.gif" width="302" height="72" alt="9-7-tit.gif (5561 bytes)"><font SIZE="+0" FACE="宋体"><br>
+</font><font FACE="宋体" size="3">Visual InterDev提供了对ActiveX控件,Java Applet和Netscape同主页接口的支持.开发者可以在可视化对象编辑器内使用ActiveX控件,从而根据其不同的需要来可视地修改组件.利用和Visual 
+Basic属性表相似的visual属性表,开发者可以轻易地修改各组件的属性而不必查看和修改起源代码.在对组件进行可视化操作之后,对象编辑器可以自动生成相应的主页中的所有HTML语法(基于W3C工业标准的OBJECT标签),并且执行.也许最重要一点是,ActiveX控件在FrontPage 
+97编辑器里以WYSIWYG的风格显示,能在页里直接进行拖放和尺寸改变.目前Visual 
+InterDev已有100多种ActiveX控件可供使用,提供了广泛的从多媒体到实时数据的多点连接的功能,因此其具有真正的可扩展性.集成的FrontPage 
+97编辑器同时也提供了对Java Applets嵌入和Netscape接口的支持.开发者可以可视地设置例如尺寸和位置的属性,编辑器将会在文档内显示Java 
+Applets嵌入和Netscape接口的框架.</font><a name="par7"></p>
+</a>
+
+<table BORDER="0" CELLSPACING="0" CELLPADDING="0" COLS="1" WIDTH="70%">
+  <tr>
+    <td><p align="center"><font FACE="宋体">描述生成器</font> <img SRC="imageFPL.JPG" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/imageFPL.JPG" HEIGHT="389" WIDTH="520"> </td>
+  </tr>
+  <tr>
+    <td><font SIZE="-1" FACE="宋体"><i>图14：描述生成器在一个主页上利用各种ActiveX控件建构一个客户端描述时提供了一个可视化界面。事件窗口允许开发者从事件列表中选出一个事件并将它移入Action窗口使之成为一个Action, 
+    描述生成器即生成Vb Script也生成Jscript,并提供一个代码输入窗口使得开发者可以很方便的输入源代码。</i></font></td>
+  </tr>
+</table>
+
+<p><img src="9-8-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-8-tit.gif" width="320" height="72" alt="9-8-tit.gif (5597 bytes)"></p>
+
+<p><font FACE="宋体" size="3">Visual InterDev也提供了客户端程序生成向导应用程序(Script 
+Wizard),并且引入了ActiveX控件来实现其功能. Script Wizard使得用户能够通过基于与ActiveX控件相连的事件和动作来很容易地增加主页之间的交互性和数据交换能力. 
+Script Wizard提供了一个可视化界面用于某个事件(例如鼠标单击)和动作(例如播放视频文件)的相连.它在事件框内列出给定ActiveX控件相关的所有事件.开发者可以选择事件框内某个事件来和动作框内的具体动作相互发生关系.通过这种方式,可以把多个动作与控件的某个单一事件相连,而不需要进行编程,这是因为Script 
+Wizard已经为你生成了相应的代码并把它加入HTML页中.</font><big><big><big><br>
+</big></big></big><font FACE="宋体" size="3">通过使用Script Wizard,开发者能够轻易地对多个控件的行为进行组合,因而可以由多种可能组件的组合生成所需的集成应用程序,其中的每个组件都提供特定的功能.</font><big><big><big><br>
+</big></big></big><font FACE="宋体" size="3">Script Wizard可以根据用户要求生成VB代码或JScript代码.当帮助用户把时间代码加入客户端程序时,它所提供的代码编辑窗口可以允许开发者直接在其内用VB或JScript进行编程或队代码进行修改.所有用Script 
+Wizard生成的客户端程序代码由W3C HTML &lt;Script&gt;标记嵌入在HTML文本文件中.</font><big><br>
+</big><img src="9-9-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-9-tit.gif" width="315" height="69" alt="9-9-tit.gif (5629 bytes)"><a name="par9"></p>
+</a>
+
+<table BORDER="0" CELLSPACING="0" CELLPADDING="0" COLS="1" WIDTH="73%">
+  <tr>
+    <td><p align="center"><font FACE="宋体">HTML界面布局编辑器</font> <img SRC="imageLDL.JPG" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/imageLDL.JPG" HEIGHT="408" WIDTH="550"> </td>
+  </tr>
+  <tr>
+    <td>　<i><font SIZE="-1">图15：<font FACE="宋体">Visual InterDev同时也提供了附有ActiveX控件的HTML界面布局编辑器.同Visual 
+    Basic的form相似,它可以精确地对多个控件进行定位,提供开发者控件的精确坐标位置. 
+    HTML界面布局编辑器使用新的可以扩充2.5D布局功能的W3C句法而不是采用把以表格为基础的界面布局信息转换成最相近的HTML语句的方法来保存信息</font>.<font FACE="宋体">这使得开发者能够对主页上的对象布置格式进行精确控制.HTML布局设计区使用了为层叠界面格式。</font></font></i> 
+    <br>
+    <i><font SIZE="-1"><font FACE="宋体">(见http://www.w3.org/pub/WWW/Tr/WD-layout.html)确定的W3C草案中所指定的新的界面格式特性,并且得到了作为Microsoft 
+    Internet Explorer一部分的HTML布局控件的支持.</font>　</font></i></td>
+  </tr>
+</table>
+<font SIZE="+0" FACE="宋体">
+
+<p></font><font FACE="宋体" size="3">HTML布局设计区为开发者提供了HTML的设计界面,在这之上可以精确布置定位任何数量的ActiveX控件.通过Script 
+Wizard还可以对HTML布局设计区进行代码编辑.因此,HTML界面布局编辑器使得为主页生成功能强大的交互界面提供了可行性.随着为2.5D 
+HTML布局而定的W3C的确立,对2.5D浏览的支持将会在Microsoft Internet Explorer中得到实现,在其他主页浏览器中也会如此.ru如果要获得更多的有关Microsoft 
+的HTML 2.5D格式标准的技术信息,请参考Microsoft HTML 
+界面布局控制白皮书</font><big><big><big><br>
+</big></big></big><font FACE="宋体" size="3">(http://www.microsoft.com/workshop/author/layout)</font></p>
+
+<p><font FACE="宋体" size="3">HTML 界面布局编辑器提供以下编辑特性:</font><big><big><big> 
+</big></big></big>
+
+<ul>
+  <li><font FACE="宋体" size="3"><b>工具箱的用户定制</b>.在工具箱上击鼠标右键允许用户增加或删除由第三方公司所提供的控件.</font></li>
+  <li><font FACE="宋体" size="3"><b>工具箱定制键.</b>可以增加新的定制键以便使用工具箱的快捷菜单.</font></li>
+  <li><font FACE="宋体" size="3"><b>工具箱对象模板.</b>用户可把表单上的对象拖回工具箱以建立新的对象模板.此模板拥有用户自己设置的所有对象特性以便于放置于新页中去,与其他对象组合而保持其用户定义属性.</font></li>
+  <li><font FACE="宋体" size="3"><b>多级的撤消和重复功能.</b>绝大多数编辑操作可以容易的撤消.</font></li>
+  <li><font FACE="宋体" size="3"><b>控件的对齐,间隔和尺寸调整.</b>控件可以自动地进行对齐, 
+    间隔和尺寸的调整.</font></li>
+  <li><font FACE="宋体" size="3"><b>控件的拖-放操作.</b>控件可以通过拖-放的编辑操作来精确定位.同时,控件也可以从一页拖放到另一页.</font></li>
+  <li><font FACE="宋体" size="3"><b>控件的分层(z方向).</b>对象的分层可以通过在任何空间上单击鼠标右键实现.</font></li>
+  <li><font FACE="宋体" size="3"><b>Script Wizard.</b> Script Wizard能够通过菜单来调用以便增加2.5D布局设计区的交互性.</font></li>
+</ul>
+<font SIZE="+0" FACE="宋体"><b>
+
+<p></b></font><img src="9-10-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-10-tit.gif" width="306" height="72" alt="9-10-tit.gif (5446 bytes)"></p>
+
+<p><font FACE="宋体" size="3">Microsoft 图象制作器(MIC)对于那些出于主页要求而需要修改或制作图象的开发者来说是特别有用的,它设计成对于那些非图象专业人员非常容易使用的工具.它将支持目前所流行的大多数图象格式,并可以直接读取Adobe 
+Photoshop图象文件,把其转变成适用于主页的JPG或GIF图象格式.用户可以轻易地在MIC中编辑和制作用于Visual 
+InterDev所制作和支持的主页.用户可以通过在Visual InterDev中单击工具栏图标或者直接在IDE中敲击图象而调用MIC.MIC可以自动保存Microsoft 
+Visual InterDev项目中的图象.欲知MIC的详情,请参见Microsoft 
+图象制作器的主页http://www.microsoft.com/imagecomposer/</font><a name="par11"></p>
+</a>
+
+<p><img src="9-11-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-11-tit.gif" width="306" height="72" alt="9-11-tit.gif (5341 bytes)"></p>
+
+<p><font FACE="宋体" size="3">除了Microsoft 图象制作器之外,Visual InterDev还提供了独特的能够创作主页中音乐效果的音乐制作工具(MMP).MMP采用了技术领先的微软音乐技术(MMT),通过预制作,改进的音乐样式来简化音乐的创作.它比普通静态音乐编辑功能更强大,多样化. 
+这种样式定义了完整的音乐节奏类型(诸如桑巴舞和Texas节奏)以及音乐气氛和乐器配置.MMP与包括了100种以上的音乐样式.即使初次使用MMP的用户也可以立即创作音乐,因为所有需要用来制作原始音乐的功能已经列在了屏幕上.</font><a name="par12"></p>
+</a>
+
+<p><img src="9-12-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/9-12-tit.gif" width="306" height="72" alt="9-12-tit.gif (5411 bytes)"></p>
+
+<p><font FACE="宋体" size="3">Microsoft 媒体管理器(MMM)使得开发者能够容易地跟踪和管理动态和静态的媒体例如图象,音乐剪辑,视频剪辑和HTML文件和设备文档等.它允许开发者对存储在媒体管理库中的媒体对象进行快速地预览,搜寻和改动,从而提高了其管理效率.这项功能与Windows95和Windows 
+NT操作系统无缝地结合在一起,使用相同的基于浏览器的应用范例.Microsoft 
+媒体管理器提供了扩展搜寻能力,图象的局部预览和其他媒体例如音乐,视频内容的预览,这是通过媒体管理库导航面板完成的. 
+媒体对象可以简单地通过拖-放方式从媒体库里放置到Visual InterDev项目中去.</font></p>
+
+<p align="center"><a HREF="Chap8.htm" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/Chap8.htm"><img SRC="bluprev.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/bluprev.gif" HEIGHT="32" WIDTH="32" border="0"></a><a HREF="index-1.htm" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/index.htm"><img SRC="blutoc.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/blutoc.gif" HEIGHT="32" WIDTH="32" border="0"></a><a HREF="chap10.htm" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/chap10.htm"><img SRC="blunext.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/blunext.gif" BORDER="0" HEIGHT="31" WIDTH="28"></a></p>
+</body>
+</html>

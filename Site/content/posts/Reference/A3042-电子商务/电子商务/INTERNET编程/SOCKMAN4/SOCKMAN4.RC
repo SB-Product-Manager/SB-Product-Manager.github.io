@@ -1,0 +1,81 @@
+#include "sockman4.h"
+
+SOCKMAN ICON DISCARDABLE "..\\SOCKMAN4.ICO"
+
+SOCKMAN MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Clear",                      IDM_FILE_CLEAR
+        MENUITEM "&Print",                      IDM_FILE_PRINT
+        MENUITEM "&Save As...",                 IDM_FILE_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_FILE_EXIT
+    END
+    POPUP "&Applications"
+    BEGIN
+        MENUITEM "&Mail",                       IDM_APP_MAIL
+        MENUITEM "&FTP",                        IDM_APP_FTP
+    END
+    POPUP "&Utilities"
+    BEGIN
+        POPUP "&Lookup Host..."
+        BEGIN
+            MENUITEM "&Async Lookup",           IDM_LOOKUP_ASYNC
+            MENUITEM "&Blocking Lookup",        IDM_LOOKUP_BLOCKING
+        END
+        POPUP "&Finger..."
+        BEGIN
+            MENUITEM "&Async Finger",           IDM_FINGER_ASYNC
+            MENUITEM "&Blocking Finger",        IDM_FINGER_BLOCKING
+        END
+        MENUITEM "&Time Server...",             IDM_TIME_UTIL
+        MENUITEM "&Ping...",                    IDM_PING_UTIL
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help...",                    IDM_HELP_HELP
+        MENUITEM "&About SockMan...",           IDM_HELP_ABOUT
+    END
+END
+
+IDD_TEXT DIALOG DISCARDABLE  0, 0, 161, 65
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter Value"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TEXTBOX,5,15,150,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,5,40,50,15
+    PUSHBUTTON      "Cancel",IDCANCEL,60,40,50,15
+END
+
+IDD_FINGER DIALOG DISCARDABLE  0, 0, 185, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "FINGER"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_FINGER_HOST,31,10,140,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_FINGER_USER,31,29,140,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,31,50,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,91,50,50,14
+    RTEXT           "Host:",IDC_STATIC,11,14,20,13
+    RTEXT           "User:",IDC_STATIC,5,33,25,9
+END
+
+IDD_TIMESERVER DIALOG DISCARDABLE  0, 0, 206, 113
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "TIME SERVER"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TIMESERVER,54,9,140,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Query",IDOK,55,70,65,16
+    PUSHBUTTON      "E&xit",IDCANCEL,130,90,65,15
+    RTEXT           "Server Host:",IDC_STATIC,5,9,45,13
+    RTEXT           "Your Time:",IDC_STATIC,4,32,47,11
+    EDITTEXT        IDC_LOCAL_TIME,55,28,140,15,ES_AUTOHSCROLL | ES_READONLY | 
+                    WS_DISABLED | NOT WS_TABSTOP
+    RTEXT           "Server Time:",IDC_STATIC,5,49,46,10
+    EDITTEXT        IDC_SERVER_TIME,54,48,140,15,ES_AUTOHSCROLL | 
+                    ES_READONLY | WS_DISABLED | NOT WS_TABSTOP
+    DEFPUSHBUTTON   "&Set Time",IDSETTIME,130,70,65,16,NOT WS_TABSTOP
+END

@@ -1,0 +1,336 @@
+; SETUP.INF for Internet Programming
+; Created Saturday, February 25, 1995 @ 05:21 PM
+
+; INF file was created by KCSetup.exe, (c) Copyright 1995 by Ken Cope
+; For use with Jeffrey M. Richter's SETUP.EXE program as described in
+; 'Windows 3.1: A Developer's Guide', Jeffrey M. Richter, M&T Books, 1992)
+
+[App]
+; Global application information
+AppName=Internet Programming
+DefDir=c:\ip_progs
+SpaceNeeded=1770
+DefPMGroup=IP_PROGS.GRP,Internet Programming
+ShowSubDirCreateStats=Y
+
+[Disks]
+; List of diskettes needed to install the product and the name of each diskette.
+1=Disk 1:Internet Programming
+
+[SrcDirs]
+; List of directories from root of source drive/directory where source files can be found.
+; Total directories=21
+ 1=_UserDir
+ 2=qfinger
+ 3=qftp1
+ 4=qftp2
+ 5=qftplib
+ 6=qlookup
+ 7=qping
+ 8=qpop3
+ 9=qsmtp
+10=qtime
+11=qweblib
+12=sockftp
+13=sockman1
+14=sockman2
+15=sockman3
+16=sockman4
+17=sockman5
+18=sockweb
+19=webserve
+20=webserve\res
+21=winsock
+
+[DstDirs]
+; List of directories from root of destination drive/directory where destination files will be placed.
+; Total directories=21
+ 1=.
+ 2=qfinger
+ 3=qftp1
+ 4=qftp2
+ 5=qftplib
+ 6=qlookup
+ 7=qping
+ 8=qpop3
+ 9=qsmtp
+10=qtime
+11=qweblib
+12=sockftp
+13=sockman1
+14=sockman2
+15=sockman3
+16=sockman4
+17=sockman5
+18=sockweb
+19=webserve
+20=webserve\res
+21=winsock
+
+[Files]
+;Description,              Src(Dsk-Dir:Name),   Dst(Dir:Name),       Shared
+;------------------------- -------------------- -------------------- ------
+_UserDir:jp_logo.ico,      1-1:jp_logo.ico,     1:jp_logo.ico,       N
+_UserDir:qfinger.ico,      1-1:qfinger.ico,     1:qfinger.ico,       N
+_UserDir:qftp1.ico,        1-1:qftp1.ico,       1:qftp1.ico,         N
+_UserDir:qftp2.ico,        1-1:qftp2.ico,       1:qftp2.ico,         N
+_UserDir:qlookup.ico,      1-1:qlookup.ico,     1:qlookup.ico,       N
+_UserDir:qping.ico,        1-1:qping.ico,       1:qping.ico,         N
+_UserDir:qpop3.ico,        1-1:qpop3.ico,       1:qpop3.ico,         N
+_UserDir:qsmtp.ico,        1-1:qsmtp.ico,       1:qsmtp.ico,         N
+_UserDir:qtime.ico,        1-1:qtime.ico,       1:qtime.ico,         N
+_UserDir:quick.ico,        1-1:quick.ico,       1:quick.ico,         N
+_UserDir:resource.wr_,     1-1:resource.wr_,    1:resource.wri,      N
+_UserDir:server.ico,       1-1:server.ico,      1:server.ico,        N
+_UserDir:smftp.ico,        1-1:smftp.ico,       1:smftp.ico,         N
+_UserDir:smweb.ico,        1-1:smweb.ico,       1:smweb.ico,         N
+_UserDir:socket.ico,       1-1:socket.ico,      1:socket.ico,        N
+_UserDir:sockman.ico,      1-1:sockman.ico,     1:sockman.ico,       N
+_UserDir:sockman1.ico,     1-1:sockman1.ico,    1:sockman1.ico,      N
+_UserDir:sockman2.ico,     1-1:sockman2.ico,    1:sockman2.ico,      N
+_UserDir:sockman3.ico,     1-1:sockman3.ico,    1:sockman3.ico,      N
+_UserDir:sockman4.ico,     1-1:sockman4.ico,    1:sockman4.ico,      N
+_UserDir:sockman5.ico,     1-1:sockman5.ico,    1:sockman5.ico,      N
+_UserDir:tcpman.hlp,       1-1:tcpman.hlp,      1:tcpman.hlp,        N
+_UserDir:VBRUN300.DL_,     1-1:VBRUN300.DL_,    1:vbrun300.dll,      Y
+_UserDir:web.ico,          1-1:web.ico,         1:web.ico,           N
+_UserDir:webhelp.hlp,	     1-1:webhelp.hlp, 	  1:webhelp.hlp,		   N
+_UserDir:winsock.h_,       1-1:winsock.h_,      1:winsock.h,         N
+_UserDir:winsock.lib,      1-1:winsock.lib,     1:winsock.lib,       N
+
+qfinger:qfinger.cpp,       1-2:qfinger.cpp,     2:qfinger.cpp,       N
+qfinger:qfinger.def,       1-2:qfinger.def,     2:qfinger.def,       N
+qfinger:qfinger.ex_,       1-2:qfinger.ex_,     2:qfinger.exe,       N
+qfinger:qfinger.id_,       1-2:qfinger.id_,     2:qfinger.ide,       N
+qfinger:qfinger.mak,       1-2:qfinger.mak,     2:qfinger.mak,       N
+qfinger:qfinger.rc,        1-2:qfinger.rc,      2:qfinger.rc,        N
+
+qftp1:qftp1.cpp,           1-3:qftp1.cpp,       3:qftp1.cpp,         N
+qftp1:qftp1.def,           1-3:qftp1.def,       3:qftp1.def,         N
+qftp1:qftp1.ex_,           1-3:qftp1.ex_,       3:qftp1.exe,         N
+qftp1:qftp1.id_,           1-3:qftp1.id_,       3:qftp1.ide,         N
+qftp1:qftp1.mak,           1-3:qftp1.mak,       3:qftp1.mak,         N
+qftp1:qftp1.rc,            1-3:qftp1.rc,        3:qftp1.rc,          N
+
+qftp2:qftp2.cpp,           1-4:qftp2.cpp,       4:qftp2.cpp,         N
+qftp2:qftp2.def,           1-4:qftp2.def,       4:qftp2.def,         N
+qftp2:qftp2.ex_,           1-4:qftp2.ex_,       4:qftp2.exe,         N
+qftp2:qftp2.id_,           1-4:qftp2.id_,       4:qftp2.ide,         N
+qftp2:qftp2.mak,           1-4:qftp2.mak,       4:qftp2.mak,         N
+qftp2:qftp2.rc,            1-4:qftp2.rc,        4:qftp2.rc,          N
+
+qftplib:qftplib.cpp,       1-5:qftplib.cpp,     5:qftplib.cpp,       N
+qftplib:qftplib.def,       1-5:qftplib.def,     5:qftplib.def,       N
+qftplib:qftplib.dl_,       1-5:qftplib.dl_,     5:qftplib.dll,       N
+qftplib:qftplib.id_,       1-5:qftplib.id_,     5:qftplib.ide,       N
+qftplib:qftplib.lib,       1-5:qftplib.lib,     5:qftplib.lib,       N
+qftplib:qftplib.mak,       1-5:qftplib.mak,     5:qftplib.mak,       N
+qftplib:qftplib.rc,        1-5:qftplib.rc,      5:qftplib.rc,        N
+
+qlookup:qlookup.cpp,       1-6:qlookup.cpp,     6:qlookup.cpp,       N
+qlookup:qlookup.def,       1-6:qlookup.def,     6:qlookup.def,       N
+qlookup:qlookup.ex_,       1-6:qlookup.ex_,     6:qlookup.exe,       N
+qlookup:qlookup.id_,       1-6:qlookup.id_,     6:qlookup.ide,       N
+qlookup:qlookup.mak,       1-6:qlookup.mak,     6:qlookup.mak,       N
+qlookup:qlookup.rc,        1-6:qlookup.rc,      6:qlookup.rc,        N
+
+qping:qping.cpp,           1-7:qping.cpp,       7:qping.cpp,         N
+qping:qping.def,           1-7:qping.def,       7:qping.def,         N
+qping:qping.ex_,           1-7:qping.ex_,       7:qping.exe,         N
+qping:qping.id_,           1-7:qping.id_,       7:qping.ide,         N
+qping:qping.mak,           1-7:qping.mak,       7:qping.mak,         N
+qping:qping.rc,            1-7:qping.rc,        7:qping.rc,          N
+
+qpop3:qpop3.cpp,           1-8:qpop3.cpp,       8:qpop3.cpp,         N
+qpop3:qpop3.def,           1-8:qpop3.def,       8:qpop3.def,         N
+qpop3:qpop3.id_,           1-8:qpop3.id_,       8:qpop3.ide,         N
+qpop3:qpop3.mak,           1-8:qpop3.mak,       8:qpop3.mak,         N
+qpop3:qpop3.rc,            1-8:qpop3.rc,        8:qpop3.rc,          N
+
+qsmtp:qsmtp.cpp,           1-9:qsmtp.cpp,       9:qsmtp.cpp,         N
+qsmtp:qsmtp.def,           1-9:qsmtp.def,       9:qsmtp.def,         N
+qsmtp:qsmtp.id_,           1-9:qsmtp.id_,       9:qsmtp.ide,         N
+qsmtp:qsmtp.mak,           1-9:qsmtp.mak,       9:qsmtp.mak,         N
+qsmtp:qsmtp.rc,            1-9:qsmtp.rc,        9:qsmtp.rc,          N
+
+qtime:qtime.cpp,           1-10:qtime.cpp,      10:qtime.cpp,        N
+qtime:qtime.def,           1-10:qtime.def,      10:qtime.def,        N
+qtime:qtime.ex_,           1-10:qtime.ex_,      10:qtime.exe,        N
+qtime:qtime.id_,           1-10:qtime.id_,      10:qtime.ide,        N
+qtime:qtime.mak,           1-10:qtime.mak,      10:qtime.mak,        N
+qtime:qtime.rc,            1-10:qtime.rc,       10:qtime.rc,         N
+
+qweblib:qweblib.cpp,       1-11:qweblib.cpp,    11:qweblib.cpp,      N
+qweblib:qweblib.def,       1-11:qweblib.def,    11:qweblib.def,      N
+qweblib:qweblib.dl_,       1-11:qweblib.dl_,    11:qweblib.dll,      N
+qweblib:qweblib.id_,       1-11:qweblib.id_,    11:qweblib.ide,      N
+qweblib:qweblib.lib,       1-11:qweblib.lib,    11:qweblib.lib,      N
+qweblib:qweblib.mak,       1-11:qweblib.mak,    11:qweblib.mak,      N
+qweblib:qweblib.rc,        1-11:qweblib.rc,     11:qweblib.rc,       N
+
+sockftp:sockftp.bas,       1-12:sockftp.bas,    12:sockftp.bas,      N
+sockftp:sockftp.ex_,       1-12:sockftp.ex_,    12:sockftp.exe,      N
+sockftp:sockftp.frm,       1-12:sockftp.frm,    12:sockftp.frm,      N
+sockftp:sockftp.frx,       1-12:sockftp.frx,    12:sockftp.frx,      N
+sockftp:sockftp.mak,       1-12:sockftp.mak,    12:sockftp.mak,      N
+
+qftplib:qftplib.dl_,       1-5:qftplib.dl_,     12:qftplib.dll,       N
+
+sockman1:common1.cpp,      1-13:common1.cpp,    13:common1.cpp,      N
+sockman1:global1.h,        1-13:global1.h,      13:global1.h,        N
+sockman1:sockman1.cpp,     1-13:sockman1.cpp,   13:sockman1.cpp,     N
+sockman1:sockman1.def,     1-13:sockman1.def,   13:sockman1.def,     N
+sockman1:sockman1.ex_,     1-13:sockman1.ex_,   13:sockman1.exe,     N
+sockman1:sockman1.h,       1-13:sockman1.h,     13:sockman1.h,       N
+sockman1:sockman1.id_,     1-13:sockman1.id_,   13:sockman1.ide,     N
+sockman1:sockman1.mak,     1-13:sockman1.mak,   13:sockman1.mak,     N
+sockman1:sockman1.rc,      1-13:sockman1.rc,    13:sockman1.rc,      N
+
+sockman2:common2.cpp,      1-14:common2.cpp,    14:common2.cpp,      N
+sockman2:global2.h,        1-14:global2.h,      14:global2.h,        N
+sockman2:lookup2.cpp,      1-14:lookup2.cpp,    14:lookup2.cpp,      N
+sockman2:sockman2.cpp,     1-14:sockman2.cpp,   14:sockman2.cpp,     N
+sockman2:sockman2.def,     1-14:sockman2.def,   14:sockman2.def,     N
+sockman2:sockman2.ex_,     1-14:sockman2.ex_,   14:sockman2.exe,     N
+sockman2:sockman2.h,       1-14:sockman2.h,     14:sockman2.h,       N
+sockman2:sockman2.id_,     1-14:sockman2.id_,   14:sockman2.ide,     N
+sockman2:sockman2.mak,     1-14:sockman2.mak,   14:sockman2.mak,     N
+sockman2:sockman2.rc,      1-14:sockman2.rc,    14:sockman2.rc,      N
+
+sockman3:common3.cpp,      1-15:common3.cpp,    15:common3.cpp,      N
+sockman3:finger3.cpp,      1-15:finger3.cpp,    15:finger3.cpp,      N
+sockman3:global3.h,        1-15:global3.h,      15:global3.h,        N
+sockman3:lookup3.cpp,      1-15:lookup3.cpp,    15:lookup3.cpp,      N
+sockman3:sockman3.cpp,     1-15:sockman3.cpp,   15:sockman3.cpp,     N
+sockman3:sockman3.def,     1-15:sockman3.def,   15:sockman3.def,     N
+sockman3:sockman3.ex_,     1-15:sockman3.ex_,   15:sockman3.exe,     N
+sockman3:sockman3.h,       1-15:sockman3.h,     15:sockman3.h,       N
+sockman3:sockman3.id_,     1-15:sockman3.id_,   15:sockman3.ide,     N
+sockman3:sockman3.mak,     1-15:sockman3.mak,   15:sockman3.mak,     N
+sockman3:sockman3.rc,      1-15:sockman3.rc,    15:sockman3.rc,      N
+
+sockman4:common4.cpp,      1-16:common4.cpp,    16:common4.cpp,      N
+sockman4:finger4.cpp,      1-16:finger4.cpp,    16:finger4.cpp,      N
+sockman4:global4.h,        1-16:global4.h,      16:global4.h,        N
+sockman4:lookup4.cpp,      1-16:lookup4.cpp,    16:lookup4.cpp,      N
+sockman4:sockman4.cpp,     1-16:sockman4.cpp,   16:sockman4.cpp,     N
+sockman4:sockman4.def,     1-16:sockman4.def,   16:sockman4.def,     N
+sockman4:sockman4.ex_,     1-16:sockman4.ex_,   16:sockman4.exe,     N
+sockman4:sockman4.h,       1-16:sockman4.h,     16:sockman4.h,       N
+sockman4:sockman4.id_,     1-16:sockman4.id_,   16:sockman4.ide,     N
+sockman4:sockman4.mak,     1-16:sockman4.mak,   16:sockman4.mak,     N
+sockman4:sockman4.rc,      1-16:sockman4.rc,    16:sockman4.rc,      N
+sockman4:time4.cpp,        1-16:time4.cpp,      16:time4.cpp,        N
+
+sockman5:common5.cpp,      1-17:common5.cpp,    17:common5.cpp,      N
+sockman5:finger5.cpp,      1-17:finger5.cpp,    17:finger5.cpp,      N
+sockman5:global5.h,        1-17:global5.h,      17:global5.h,        N
+sockman5:lookup5.cpp,      1-17:lookup5.cpp,    17:lookup5.cpp,      N
+sockman5:ping5.cpp,        1-17:ping5.cpp,      17:ping5.cpp,        N
+sockman5:sockman5.cpp,     1-17:sockman5.cpp,   17:sockman5.cpp,     N
+sockman5:sockman5.def,     1-17:sockman5.def,   17:sockman5.def,     N
+sockman5:sockman5.ex_,     1-17:sockman5.ex_,   17:sockman5.exe,     N
+sockman5:sockman5.h,       1-17:sockman5.h,     17:sockman5.h,       N
+sockman5:sockman5.id_,     1-17:sockman5.id_,   17:sockman5.ide,     N
+sockman5:sockman5.mak,     1-17:sockman5.mak,   17:sockman5.mak,     N
+sockman5:sockman5.rc,      1-17:sockman5.rc,    17:sockman5.rc,      N
+sockman5:sockraw5.h,       1-17:sockraw5.h,     17:sockraw5.h,       N
+sockman5:time5.cpp,        1-17:time5.cpp,      17:time5.cpp,        N
+
+sockweb:sockweb.ex_,       1-18:sockweb.ex_,    18:sockweb.exe,      N
+sockweb:sockweb.frm,       1-18:sockweb.frm,    18:sockweb.frm,      N
+sockweb:sockweb.frx,       1-18:sockweb.frx,    18:sockweb.frx,      N
+sockweb:sockweb.mak,       1-18:sockweb.mak,    18:sockweb.mak,      N
+
+qweblib:qweblib.dl_,       1-11:qweblib.dl_,    18:qweblib.dll,      N
+
+webserve:mainfrm1.cpp,     1-19:mainfrm1.cpp,   19:mainfrm1.cpp,     N
+webserve:mainfrm1.h,       1-19:mainfrm1.h,     19:mainfrm1.h,       N
+webserve:readme,           1-19:readme,         19:readme,           N
+webserve:resource.h,       1-19:resource.h,     19:resource.h,       N
+webserve:serv1doc.cpp,     1-19:serv1doc.cpp,   19:serv1doc.cpp,     N
+webserve:serv1doc.h,       1-19:serv1doc.h,     19:serv1doc.h,       N
+webserve:serv1vw.cpp,      1-19:serv1vw.cpp,    19:serv1vw.cpp,      N
+webserve:serv1vw.h,        1-19:serv1vw.h,      19:serv1vw.h,        N
+webserve:server.ini,       1-19:server.ini,     19:server.ini,       N
+webserve:server1.clw,      1-19:server1.clw,    19:server1.clw,      N
+webserve:server1.cpp,      1-19:server1.cpp,    19:server1.cpp,      N
+webserve:server1.def,      1-19:server1.def,    19:server1.def,      N
+webserve:server1.ex_,      1-19:server1.ex_,    19:server1.exe,      N
+webserve:server1.h,        1-19:server1.h,      19:server1.h,        N
+webserve:server1.mak,      1-19:server1.mak,    19:server1.mak,      N
+webserve:server1.rc,       1-19:server1.rc,     19:server1.rc,       N
+webserve:stdafx.cpp,       1-19:stdafx.cpp,     19:stdafx.cpp,       N
+webserve:stdafx.h,         1-19:stdafx.h,       19:stdafx.h,         N
+
+webserve\res:jp_logo2.ico, 1-20:jp_logo2.ico,   20:jp_logo2.ico,     N
+webserve\res:quick2.ico,   1-20:quick2.ico,     20:quick2.ico,       N
+webserve\res:server.rc2,   1-20:server.rc2,     20:server.rc2,       N
+webserve\res:server1.ico,  1-20:server1.ico,    20:server1.ico,      N
+webserve\res:socket2.ico,  1-20:socket2.ico,    20:socket2.ico,      N
+webserve\res:sockman0.ico, 1-20:sockman0.ico,   20:sockman0.ico,     N
+webserve\res:toolbar.bmp,  1-20:toolbar.bmp,    20:toolbar.bmp,      N
+webserve\res:web2.ico,     1-20:web2.ico,       20:web2.ico,         N
+
+winsock:bye.cm_,           1-21:bye.cm_,        21:bye.cmd,          N
+winsock:disclaim.tx_,      1-21:disclaim.tx_,   21:disclaim.txt,     N
+winsock:hosts._,           1-21:hosts._,        21:hosts.,          N
+winsock:install.tx_,       1-21:install.tx_,    21:install.txt,      N
+winsock:login.cm_,         1-21:login.cm_,      21:login.cmd,        N
+winsock:protocol._,        1-21:protocol._,     21:protocol.,       N
+winsock:sendreg.ex_,       1-21:sendreg.ex_,    21:sendreg.exe,      N
+winsock:services._,        1-21:services._,     21:services.,       N
+winsock:setup.cm_,         1-21:setup.cm_,      21:setup.cmd,        N
+winsock:tcpman.ex_,        1-21:tcpman.ex_,     21:tcpman.exe,       N
+winsock:trumpwsk.in_,      1-21:trumpwsk.in_,   21:trumpwsk.ini,     N
+winsock:winpkt.co_,        1-21:winpkt.co_,     21:winpkt.com,       N
+winsock:winsock.dl_,       1-21:winsock.dl_,    21:winsock.dll,      N
+
+[PM Info] 
+;DstFileName    AppDesc                                   (Icon #)
+;-------------- ----------------------------------------  --------
+qlookup.exe,    Q-Lookup,                              		1
+qfinger.exe,    Q-Finger,                              		1
+qtime.exe,      Q-Time,                                		1
+qping.exe,      Q-Ping,                                		1
+sockman1.exe,   SOCKMAN - Template,                       1
+sockman2.exe,   SOCKMAN - Lookup,                         1
+sockman3.exe,   SOCKMAN - Finger,                         1
+sockman4.exe,   SOCKMAN - Time,                           1
+sockman5.exe,   SOCKMAN - Ping,                           1
+qftp1.exe,      Q-FTP1,                                		1
+qftp2.exe,      Q-FTP2,                                		1
+sockftp.exe,    Sock FTP,                              		1
+sockweb.exe,    Sock WEB,                              		1
+server1.exe,    WEB Server 1,                             1
+tcpman.exe,     Trumpet Winsock,                          1
+tcpman.hlp,     Winsock Help,                             1
+webhelp.hlp,    Web Introduction,                         1
+resource.wri,   Other Resources,                          1
+
+[End]
+
+[OrgDirs]
+; Original file locations (used by KCSetup to reload configuration information).
+; Total directories=21
+ 1=c:\ip_progs
+ 2=c:\ip_progs\qfinger
+ 3=c:\ip_progs\qftp1
+ 4=c:\ip_progs\qftp2
+ 5=c:\ip_progs\qftplib
+ 6=c:\ip_progs\qlookup
+ 7=c:\ip_progs\qping
+ 8=c:\ip_progs\qpop3
+ 9=c:\ip_progs\qsmtp
+10=c:\ip_progs\qtime
+11=c:\ip_progs\qweblib
+12=c:\ip_progs\sockftp
+13=c:\ip_progs\sockman1
+14=c:\ip_progs\sockman2
+15=c:\ip_progs\sockman3
+16=c:\ip_progs\sockman4
+17=c:\ip_progs\sockman5
+18=c:\ip_progs\sockweb
+19=c:\ip_progs\webserve
+20=c:\ip_progs\webserve\res
+21=c:\ip_progs\winsock

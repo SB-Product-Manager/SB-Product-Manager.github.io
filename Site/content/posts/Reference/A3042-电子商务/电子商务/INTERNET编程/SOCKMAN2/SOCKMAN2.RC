@@ -1,0 +1,50 @@
+#include "sockman2.h"
+
+SOCKMAN ICON DISCARDABLE "..\\SOCKMAN2.ICO"
+
+SOCKMAN MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Clear",                      IDM_FILE_CLEAR
+        MENUITEM "&Print",                      IDM_FILE_PRINT
+        MENUITEM "&Save As...",                 IDM_FILE_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_FILE_EXIT
+    END
+    POPUP "&Applications"
+    BEGIN
+        MENUITEM "&Mail",                       IDM_APP_MAIL
+        MENUITEM "&FTP",                        IDM_APP_FTP
+    END
+    POPUP "&Utilities"
+    BEGIN
+        POPUP "&Lookup Host..."
+        BEGIN
+            MENUITEM "&Async Lookup",           IDM_LOOKUP_ASYNC
+            MENUITEM "&Blocking Lookup",        IDM_LOOKUP_BLOCKING
+        END
+        POPUP "&Finger..."
+        BEGIN
+            MENUITEM "&Async Finger",           IDM_FINGER_ASYNC
+            MENUITEM "&Blocking Finger",        IDM_FINGER_BLOCKING
+        END
+        MENUITEM "&Time Server...",             IDM_TIME_UTIL
+        MENUITEM "&Ping...",                    IDM_PING_UTIL
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help...",                    IDM_HELP_HELP
+        MENUITEM "&About SockMan...",           IDM_HELP_ABOUT
+    END
+END
+
+IDD_TEXT DIALOG DISCARDABLE  0, 0, 161, 65
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "Enter Value"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TEXTBOX,5,15,150,15,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,5,40,50,15
+    PUSHBUTTON      "Cancel",IDCANCEL,60,40,50,15
+END

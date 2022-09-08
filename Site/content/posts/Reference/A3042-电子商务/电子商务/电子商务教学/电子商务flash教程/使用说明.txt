@@ -1,0 +1,4 @@
+
+   将所有的文件解压到同一个文件夹下，然后运行default.html。
+   如果你没有装FLASH或者FLASH插件，那么请先运行ieflashsupp.exe文件
+安装FLASH插件即可!

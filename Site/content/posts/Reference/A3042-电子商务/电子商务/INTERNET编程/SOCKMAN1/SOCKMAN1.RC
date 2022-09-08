@@ -1,0 +1,40 @@
+#include "sockman1.h"
+
+SOCKMAN ICON DISCARDABLE "..\\SOCKMAN1.ICO"
+
+SOCKMAN MENU DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Clear",                      IDM_FILE_CLEAR
+        MENUITEM "&Print",                      IDM_FILE_PRINT
+        MENUITEM "&Save As...",                 IDM_FILE_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       IDM_FILE_EXIT
+    END
+    POPUP "&Applications"
+    BEGIN
+        MENUITEM "&Mail",                       IDM_APP_MAIL
+        MENUITEM "&FTP",                        IDM_APP_FTP
+    END
+    POPUP "&Utilities"
+    BEGIN
+        POPUP "&Lookup Host..."
+        BEGIN
+            MENUITEM "&Async Lookup",           IDM_LOOKUP_ASYNC
+            MENUITEM "&Blocking Lookup",        IDM_LOOKUP_BLOCKING
+        END
+        POPUP "&Finger..."
+        BEGIN
+            MENUITEM "&Async Finger",           IDM_FINGER_ASYNC
+            MENUITEM "&Blocking Finger",        IDM_FINGER_BLOCKING
+        END
+        MENUITEM "&Time Server...",             IDM_TIME_UTIL
+        MENUITEM "&Ping...",                    IDM_PING_UTIL
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Help...",                    IDM_HELP_HELP
+        MENUITEM "&About SockMan...",           IDM_HELP_ABOUT
+    END
+END

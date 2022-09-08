@@ -1,0 +1,169 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+<meta NAME="Author" CONTENT="曹勇">
+<meta NAME="GENERATOR" CONTENT="Microsoft FrontPage 3.0">
+<title>cao\chap7</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+<font SIZE="+2" FACE="宋体"><b>
+
+<p></b></font><img src="7-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/7-tit.gif" width="373" height="87" alt="7-tit.gif (6719 bytes)"><br>
+<font SIZE="+0" FACE="宋体"><b>7.1 Visual InterDev 和交互式服务器主页</b></font> 
+<br>
+<font SIZE="+0">Visual nterDev<font FACE="宋体">是一个集成了可视化的开发环境的工具，这使得开发基于交互式主页的动态</font>Internet<font FACE="宋体">和</font>Intranet<font FACE="宋体">应用变得十分简单，这也是</font>Microsoft 
+Internet Infor-</font> <br>
+<font SIZE="+0">mation Server<font FACE="宋体">的一个新特性。作为服务器环境，交互式主页可以适应于最广泛使用的网络浏览器，因此，利用</font>Visual 
+InterDev<font FACE="宋体">进行网络应用开发就不需要任何特别的客户端软件，并且可以在任何平台的绝大多数浏览器上进行浏览。要了解</font>Visual 
+InterDev<font FACE="宋体">对</font>Internet<font FACE="宋体">和</font>intranet<font FACE="宋体">开发者各种需要的适应性，很重要的就是首先去检验一下交互式主页所提供的丰富的功能。</font></font> 
+<a name="par1"></p>
+</a>
+
+<p><img src="7-2-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/7-2-tit.gif" width="303" height="70" alt="7-2-tit.gif (5843 bytes)"> <br>
+<font FACE="宋体"><big>最</big></font><font size="3" FACE="宋体">初网络服务器和网络终端是这样的，服务器送出一个</font><font size="3">HTML<font FACE="宋体">文件，对客户端提出一个格式化文本。这种模式现在还经常使用。在这种方案下，用户向服务器送出一个要求需要一个利用</font>Http<font FACE="宋体">协议的特别的</font>Html<font FACE="宋体">文件。服务器接受这个要求并将</font>Html<font FACE="宋体">送回到客户端浏览器上。因此用户显示并浏览这个</font>Html. 
+<font FACE="宋体">在这种模式提供了能迅即进入一个不错的对于雇佣信息或潜在客户的格式化页面的同时，它在用户和服务器之间的交互是十分有限的。另外，这种信息仅仅是依靠某人手工修改文件来进行最后的日期更新。</font></font><a name="par3"></p>
+</a>
+
+<p><img src="7-3-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/7-3-tit.gif" width="300" height="71" alt="7-3-tit.gif (3745 bytes)"><font FACE="宋体"><br>
+<font size="3"><font FACE="宋体">利用</font>CGI,ISAPI<font FACE="宋体">和其他有关途径，一个用户可以将一个</font>http<font FACE="宋体">要求发送到一个可执行应用程序而不是一个静态的</font>HTML<font FACE="宋体">文件。服务器将会立即运行这个限定的程序。这个程序可以读取环境变量并将决定哪个变量符合要求进行标准输入（例如，用户填在</font>Html 
+form<font FACE="宋体">中的量）。程序于是分析这些变量的有用信息并生成</font>HTML<font FACE="宋体">文件返回客户端。这种通道性程序的缺点是很难产生改变，这种改变需要整体的不同设计过程而不仅是</font>HTML<font FACE="宋体">主页，另外，因为动态主页需要网络服务器改变服务器进程和每一个程序请求的</font>CGI<font FACE="宋体">执行进程之间的关系，所以</font>CGI<font FACE="宋体">类型的应用需要较高的服务器费用。</font></font><big><big><big><br>
+</big></big></big><a name="par4"></p>
+
+<hr WIDTH="100%">
+</a>
+
+<p><img src="7-4-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/7-4-tit.gif" width="411" height="71" alt="7-4-tit.gif (7041 bytes)"></p>
+<div align="center"><center>
+
+<table BORDER="0" CELLSPACING="0" CELLPADDING="0" COLS="2" WIDTH="674">
+  <tr>
+    <td width="674"><p align="center"></font><font face="Arial"><font SIZE="+0">Microsoft 
+    Internet Information Server and Active Server Pages</font> </font><font FACE="宋体"><br>
+    <img SRC="Image5.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/Image5.gif" HEIGHT="404" WIDTH="450"></font></td>
+  </tr>
+  <tr>
+    <td width="674"><font SIZE="-1"><font FACE="宋体">图</font><i>4<font FACE="宋体">：</font></i> 
+    <font FACE="宋体">交互式主页是建构动态网络站点的一个十分强大的网络应用开发环境结构，交互式主页是在送到客户网络浏览器之前包含了服务端进程描述的</font>Html<font FACE="宋体">主页，这些服务端描述是用</font>VB script<font FACE="宋体">、</font>Jscript<font FACE="宋体">、</font>Perl<font FACE="宋体">或其他描述式语言写成的，可以利用自定义的或集成的</font>ActiveX 
+    Server<font FACE="宋体">元素来进行特定功能的网络应用扩展。</font></font></td>
+  </tr>
+</table>
+</center></div><font FACE="宋体" SIZE="+0">
+
+<p></font><font FACE="宋体"><font size="3">交互式主页是基于微软Internet 
+Information Server 3.0使用的ActiveX Scripting 引擎,它允许开发者直接在HTML 
+content插入可在服务端运行的script。因此,用Visual InterDev开发的应用具有:</font><big> 
+<br>
+</big><font size="3">Content-centric—完全由underlying HTML文件集成</font><big> <br>
+</big><font size="3">简易性—易于建立不需编译及连接的程序</font><big> <br>
+</big><font size="3">强大性—带有ActiveX服务器组件的面向对象及</font><big> 
+</big><font size="3">可扩展性</font><big> <br>
+</big><font size="3">这对于网络应用开发者来说意味着什么?这意味着发布信息和提供交互式商业应用之间的差异,正如以下几例所表明的:</font></font><big><br>
+</big><font FACE="宋体"><font size="3">.对于人力资源经理,这是出版一本HR手册和提供交互式利益管理之间的差异。<br>
+.<a name="par5">对于不动产经纪人,这是特性广告,提供交互式计划,处理抵押及更多其他项目之间的差异。</font><big> 
+<br>
+</big><font size="3">.对于旅行社,这是发布飞行日程安排及提供在线预定和售票之间的差异。</font><big> 
+<br>
+</big><font size="3">.对于公共资金管理者,这是公布计划书和提供在线证券管理的差异。</font><big> 
+<br>
+</big><font size="3">.对于MIS专家,<font FACE="宋体">这是建立一个网点来公享文档及提供完全交互式网络服务之间的</font></font><big>差</big><font size="3">异</font><big> <br>
+.</big><font size="3">对于交互式主页,开发者可使用各种scripting 语言,包括VB 
+Script 和JScript来建立</font><big>健全的</big><font size="3">及</font><big>可根据情况随时改变的</big><font size="3">的解决方案。Visual InterDev为开发ActiveX Server的应用程序提供了一套完整的系统,包括大量的可视工具。大部分这些工具都自动产生大部分完成复杂任务所必需的服务器scripting,如建立可被全球站点使用的共享数据库连接。完成对数据库的复杂SQL查询并将数据连入动态结构的主页;以及建立直接与数据库相连的HTML表格。即使可视工具是如此的强大和好用,Visual 
+InterDev还提供给开发者直接对源代码进行操作的选择,以具有最大的灵活性。</font><big> 
+</big></p>
+</a>
+
+<p><a name="par5"><img src="7-5-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/7-5-tit.gif" width="304" height="71" alt="7-5-tit.gif (4371 bytes)"></a></p>
+
+<table BORDER="0" CELLSPACING="0" CELLPADDING="0" COLS="2" WIDTH="640">
+  <tr>
+    <td></font><font FACE="宋体" SIZE="+0">一个简单的交互式主页</font><font FACE="宋体"> <br>
+    <img SRC="Image6.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/Image6.gif" HEIGHT="210" WIDTH="450"></font></td>
+    <td><font size="3"><font FACE="宋体">基本的</font>ActiveX Server<font FACE="宋体">单位是</font>Active 
+    Server Page<font FACE="宋体">文件</font>,<font FACE="宋体">即</font>.ASP<font FACE="宋体">文件。一个</font> .ASP<font FACE="宋体">文件由以下三种形式之一的</font>ASCII<font FACE="宋体">文本构成</font>:</font><big><big><big> <br>
+    </big></big></big><font FACE="宋体"><font size="3">.文字</font><big><big><big> <br>
+    </big></big></big><font size="3">.HTML</font><big><big><big> <br>
+    </big></big></big><font size="3">.Script</font></font></td>
+  </tr>
+  <tr>
+    <td><i><font SIZE="-1"><font FACE="宋体">图</font>5. <font FACE="宋体">交互式主页</font> 
+    (ASP) <font FACE="宋体">是一个包含了服务端</font>scripting<font FACE="宋体">的</font>HTML<font FACE="宋体">页。服务端</font>scripts<font FACE="宋体">由开头和结尾用</font> 
+    &lt;%&gt;<font FACE="宋体">标记指定的部分组成</font>,<font FACE="宋体">并在主页被送往浏览器之前得到处理。</font> 
+    <font FACE="宋体">在这种情况下</font>,<font FACE="宋体">一个简单的循环就完成了在</font>HTML<font FACE="宋体">页上显示逐渐变大的</font>“Hello World”,<font FACE="宋体">显示结果如下。</font></font></i></td>
+    <td><font SIZE="+0">Script<font FACE="宋体">由包含在</font>ActiveX script <font FACE="宋体">标记或</font>HTML &lt;SCRIPT&gt;<font FACE="宋体">标记中的可在服务器</font></font></td>
+  </tr>
+  <tr>
+    <td><p align="center"><font SIZE="+0" FACE="宋体">浏览交互式主页</font><font FACE="宋体"> <img SRC="Image7.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/Image7.gif" HEIGHT="463" WIDTH="450"></font></td>
+    <td>上被<font size="3">ActiveX Server<font FACE="宋体">引擎处理的命令组成。当使用者以</font>.ASP<font FACE="宋体">扩展名的文件请求一个</font>URL<font FACE="宋体">时</font>ActiveX 
+    Server<font FACE="宋体">引擎从头至尾读取此文件</font>,<font FACE="宋体">将文本及</font>HTML<font FACE="宋体">传给用户的浏览器</font>,<font FACE="宋体">并执行所有的命令。</font>ActiveX 
+    Server scripting<font FACE="宋体">与主页完全集成起来。</font> <font FACE="宋体">要求</font>ActiveX Server<font FACE="宋体">引擎能够读取某文件只需给此文件加上</font>.ASP<font FACE="宋体">的扩展名。</font> <font FACE="宋体">因此</font>,<font FACE="宋体">现有的</font>HTML<font FACE="宋体">文件只须简单地将它们的扩展名由</font>.HTM<font FACE="宋体">变为</font>.ASP 
+    ,<font FACE="宋体">它们就成了</font>Active Server Pages<font FACE="宋体">。开发者可通过在</font>.ASP<font FACE="宋体">页中加入</font>ActiveX Server script<font FACE="宋体">来建立动态</font>HTML<font FACE="宋体">。</font>ActiveX Server<font FACE="宋体">的主语言是</font></font></td>
+  </tr>
+  <tr>
+    <td><i><font SIZE="-1"><font FACE="宋体">图</font>6. <font FACE="宋体">上图是</font>Hello 
+    World<font FACE="宋体">的交互式主页</font>,<font FACE="宋体">所有服务器</font>scripting<font FACE="宋体">都在服务器</font></font></i> <br>
+    <i><font SIZE="-1"><font FACE="宋体">上得到处理</font>,<font FACE="宋体">只有</font>HTML<font FACE="宋体">被送到客户端</font>,<font FACE="宋体">就如从微软</font> 
+    Internet Explorer 3.0</font></i> <br>
+    <font SIZE="-1" FACE="宋体"><i>中查看到的相关源代码那样。</i></font><font FACE="宋体"></font></td>
+    <td><font size="3">VB Script <font FACE="宋体">或</font> JScript, <font FACE="宋体">然而</font>,<font FACE="宋体">开发者可以使用</font>&lt;SCRIPT&gt;</font></td>
+  </tr>
+</table>
+<font SIZE="+0"><font FACE="宋体">
+
+<p>标记来插入其他</font>scripting languages<font FACE="宋体">如</font>Perl<font FACE="宋体">写成的</font>scripts<font FACE="宋体">。</font></font><a name="par6"></p>
+</a>
+
+<p>　<img src="7-6-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/7-6-tit.gif" width="427" height="71" alt="7-6-tit.gif (7060 bytes)"><font FACE="宋体"><br>
+<font size="3">虽然使用Visual InterDev来写ActiveX Server scripts相对而言是简单的, 
+但scripts 却为Internet 及 intranet应用提供了强大的环境。 例如,开发者能通过ActiveX 
+Server组件来实现高级功能(如以前所知的 OLE 自动服务器)ActiveX Server组件是Visual 
+InterDev中非常重要的特色ActiveX Server组件不被VB Script 及 JScript 
+带来的安全性所限制, 因为它们运行在一个受限的服务器上,而与用户平台 
+隔离。因此这可用来扩充ActiveX Server Scripting的功能,如直接进入文件系统及获取计算机及网络的资源。作为 
+COM组件,可以由VB Script 和 JScript进行驱动,并能运行内部的 DLLs 
+或外部的可执行模块。 对设计成内部 DLLs 的简单组件,可获得超过CGI方式的更好效果, 
+这是由于当用户浏览使用此控件的主页时没有过程间的上下文切换。另外,ActiveX 
+Server组件可以被例示并被所有连到网点的用户共享,从而有效利用服务器资源。 
+使用Visual InterDev, 开发者能容易地将用Java, Visual Basic (4.0 或更高版)C, 
+C++ 或其它能建立COM组件的语言写的ActiveX Server组件结合起来。</font><big><big><big> 
+<br>
+</big></big></big><font size="3">具有ActiveX Server 组件的Visual InterDev允许开发者轻松地建立multitier网络应用。 
+例如,一个提供金融模型及分析功能的组件可以被用来建立部分的网络财政服务应用。 
+使用Visual InterDev开发者能建立在服务器上运行组件的交互式主页,并使用组件的方法(函数)为用户在动态建立的HTML页上返回财政模型信息。由于组件是在服务器上运行的, 
+其内容可被所有的用户查看。</font> <br>
+<img src="7-7-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/7-7-tit.gif" width="530" height="72" alt="7-7-tit.gif (8346 bytes)"><big><big><big> 
+<br>
+</big></big></big><font size="3">ActiveX Server组件提供了一个方便有效的途径高度集成了具有内部及 
+legacy系统的网络应用。例如,一种用Visual Basic编写的客户端－服务器型的保险处理系统可被分成一系列的ActiveX 
+Server组件,这写组件可直接从主页通过ActiveX Server Scripting调用。在此情况下,Visual 
+InterDev有助于在现有的工具和系统下保护及扩展团体的投资,从主机中广泛搜索更多近来开展的客户端－服务器应用。Visual 
+InterDev 提供了工具可用ActiveX Server组件将这些系统的功能有效集成于网点。</font> 
+<br>
+<img src="7-8-tit.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/7-8-tit.gif" width="404" height="72" alt="7-8-tit.gif (6221 bytes)"></font></p>
+<font FACE="宋体"><div align="center"><center>
+
+<table BORDER="0" CELLSPACING="0" CELLPADDING="0" COLS="2" WIDTH="652">
+  <tr>
+    <td width="652"><p align="center"><img SRC="image6MI.JPG" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/image6MI.JPG" HEIGHT="417" WIDTH="450"></td>
+  </tr>
+  <tr>
+    <td width="652"></font><font SIZE="+0" FACE="宋体">图</font><font FACE="宋体"><font SIZE="-1"><i>7.</i></font><font size="2"> Visual InterDev <font FACE="宋体">允许公司从带有分布</font>COM 
+    (DCOM)<font FACE="宋体">的</font>ActiveX Server<font FACE="宋体">组件中获益。</font> 
+    DCOM<font FACE="宋体">提供了完全的网络透明度</font>,<font FACE="宋体">因此开发者使用相同的</font>scripting<font FACE="宋体">逻辑建立</font> DCOM<font FACE="宋体">组件</font>,<font FACE="宋体">就象组件在本地的网络服务器上运行一样。</font> DCOM<font FACE="宋体">组件能提供更大的</font>scalability <font FACE="宋体">及容错性对于危险任务的网络应用。</font></font></font></td>
+  </tr>
+</table>
+</center></div><font SIZE="+0" FACE="宋体">
+
+<p align="left"></font><font FACE="宋体" size="3">由于ActiveX Server组件是COM对象,外部服务器组件能运用分布COM 
+(DCOM)与服务器网络无缝结合。 
+这就是说需要大量处理的组件可被分配给与网络服务器连接工作的应用从而能高效处理浏览网点的用户的要求。例如, 
+一个完成复杂价格计算的价格查询组件能作为一个ActiveX Server组件建立并通过DCOM分布在专门的应用服务器上运行DCOM的好处在于分布式计算机对于开发者来说是透明的。用于运行及操作远地组件的ActiveX 
+Server scripting正象</font><font FACE="宋体" SIZE="+0">是此组件就在本网络服务器上运行一样。使用DCOM 
+组件及Visual InterDev建立的</font><font FACE="宋体">分布式<font size="3">解决方案对于企业的网络应用具有完好的负荷平衡,<font FACE="宋体">更好的表现</font>,<font FACE="宋体">和更好的容错性。交互式服务器组件可使用微软的</font>Distributed 
+Transaction Coordinator <font FACE="宋体">有选择地处理。</font></font></p>
+</font>
+
+<p align="center"><font FACE="宋体"><a HREF="Chap6.htm" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/Chap6.htm"><img SRC="bluprev.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/bluprev.gif" HEIGHT="32" WIDTH="32" border="0"></a><a HREF="index-1.htm" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/index.htm"><img SRC="blutoc.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/blutoc.gif" HEIGHT="32" WIDTH="32" border="0"></a><a HREF="chap8.htm" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/chap8.htm"><img SRC="blunext.gif" tppabs="http://www.magicw3.com/support/nt-handbook/interdev/cao/blunext.gif" BORDER="0" HEIGHT="32" WIDTH="28"></a></font></p>
+</body>
+</html>

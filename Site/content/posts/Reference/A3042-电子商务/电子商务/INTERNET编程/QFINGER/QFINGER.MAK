@@ -1,0 +1,102 @@
+# Microsoft Visual C++ generated build script - Do not modify
+
+PROJ = QFINGER
+DEBUG = 0
+PROGTYPE = 0
+CALLER = 
+ARGS = 
+DLLS = 
+D_RCDEFINES = -d_DEBUG
+R_RCDEFINES = -dNDEBUG
+ORIGIN = MSVC
+ORIGIN_VER = 1.00
+PROJPATH = C:\IP_PROGS\QFINGER\
+USEMFC = 0
+CC = cl
+CPP = cl
+CXX = cl
+CCREATEPCHFLAG = 
+CPPCREATEPCHFLAG = 
+CUSEPCHFLAG = 
+CPPUSEPCHFLAG = 
+FIRSTC =             
+FIRSTCPP = QFINGER.CPP 
+RC = rc
+CFLAGS_D_WEXE = /nologo /G2 /W3 /Zi /Od /D "_DEBUG" /FR /GA /Fd"QFINGER.PDB"
+CFLAGS_R_WEXE = /nologo /W3 /O1 /D "NDEBUG" /FR /GA 
+LFLAGS_D_WEXE = /NOLOGO /NOD /PACKC:61440 /ALIGN:16 /ONERROR:NOEXE /CO  
+LFLAGS_R_WEXE = /NOLOGO /NOD /PACKC:61440 /ALIGN:16 /ONERROR:NOEXE  
+LIBS_D_WEXE = oldnames libw slibcew commdlg.lib olecli.lib olesvr.lib shell.lib 
+LIBS_R_WEXE = oldnames libw slibcew commdlg.lib olecli.lib olesvr.lib shell.lib 
+RCFLAGS = /nologo
+RESFLAGS = /nologo
+RUNFLAGS = 
+DEFFILE = QFINGER.DEF
+OBJS_EXT = 
+LIBS_EXT = ..\WINSOCK.LIB 
+!if "$(DEBUG)" == "1"
+CFLAGS = $(CFLAGS_D_WEXE)
+LFLAGS = $(LFLAGS_D_WEXE)
+LIBS = $(LIBS_D_WEXE)
+MAPFILE = nul
+RCDEFINES = $(D_RCDEFINES)
+!else
+CFLAGS = $(CFLAGS_R_WEXE)
+LFLAGS = $(LFLAGS_R_WEXE)
+LIBS = $(LIBS_R_WEXE)
+MAPFILE = nul
+RCDEFINES = $(R_RCDEFINES)
+!endif
+!if [if exist MSVC.BND del MSVC.BND]
+!endif
+SBRS = QFINGER.SBR
+
+
+WINSOCK_DEP = 
+
+QFINGER_DEP = c:\ip_progs\winsock.h
+
+
+QFINGER_RCDEP = c:\ip_progs\qfinger.ico
+
+
+all:	$(PROJ).EXE $(PROJ).BSC
+
+QFINGER.OBJ:	QFINGER.CPP $(QFINGER_DEP)
+	$(CPP) $(CFLAGS) $(CPPCREATEPCHFLAG) /c QFINGER.CPP
+
+QFINGER.RES:	QFINGER.RC $(QFINGER_RCDEP)
+	$(RC) $(RCFLAGS) $(RCDEFINES) -r QFINGER.RC
+
+
+$(PROJ).EXE::	QFINGER.RES
+
+$(PROJ).EXE::	QFINGER.OBJ $(OBJS_EXT) $(DEFFILE)
+	echo >NUL @<<$(PROJ).CRF
+QFINGER.OBJ +
+$(OBJS_EXT)
+$(PROJ).EXE
+$(MAPFILE)
+.\+
+C:\MSVC\CDK16\LIB\+
+C:\MSVC\LIB\+
+C:\MSVC\MFC\LIB\+
+..\WINSOCK.LIB+
+$(LIBS)
+$(DEFFILE);
+<<
+	link $(LFLAGS) @$(PROJ).CRF
+	$(RC) $(RESFLAGS) QFINGER.RES $@
+	@copy $(PROJ).CRF MSVC.BND
+
+$(PROJ).EXE::	QFINGER.RES
+	if not exist MSVC.BND 	$(RC) $(RESFLAGS) QFINGER.RES $@
+
+run: $(PROJ).EXE
+	$(PROJ) $(RUNFLAGS)
+
+
+$(PROJ).BSC: $(SBRS)
+	bscmake @<<
+/o$@ $(SBRS)
+<<

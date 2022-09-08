@@ -1,0 +1,102 @@
+# Microsoft Visual C++ generated build script - Do not modify
+
+PROJ = QTIME
+DEBUG = 0
+PROGTYPE = 0
+CALLER = 
+ARGS = 
+DLLS = 
+D_RCDEFINES = -d_DEBUG
+R_RCDEFINES = -dNDEBUG
+ORIGIN = MSVC
+ORIGIN_VER = 1.00
+PROJPATH = C:\IP_PROGS\QTIME\
+USEMFC = 0
+CC = cl
+CPP = cl
+CXX = cl
+CCREATEPCHFLAG = 
+CPPCREATEPCHFLAG = 
+CUSEPCHFLAG = 
+CPPUSEPCHFLAG = 
+FIRSTC =             
+FIRSTCPP = QTIME.CPP   
+RC = rc
+CFLAGS_D_WEXE = /nologo /G2 /W3 /Zi /Od /D "_DEBUG" /FR /GA /Fd"QTIME.PDB"
+CFLAGS_R_WEXE = /nologo /W3 /O1 /D "NDEBUG" /FR /GA 
+LFLAGS_D_WEXE = /NOLOGO /ONERROR:NOEXE /NOD /PACKC:61440 /CO /ALIGN:16 
+LFLAGS_R_WEXE = /NOLOGO /ONERROR:NOEXE /NOD /PACKC:61440 /ALIGN:16 
+LIBS_D_WEXE = oldnames libw commdlg shell olecli olesvr slibcew
+LIBS_R_WEXE = oldnames libw commdlg shell olecli olesvr slibcew
+RCFLAGS = /nologo
+RESFLAGS = /nologo
+RUNFLAGS = 
+DEFFILE = QTIME.DEF
+OBJS_EXT = 
+LIBS_EXT = ..\WINSOCK.LIB 
+!if "$(DEBUG)" == "1"
+CFLAGS = $(CFLAGS_D_WEXE)
+LFLAGS = $(LFLAGS_D_WEXE)
+LIBS = $(LIBS_D_WEXE)
+MAPFILE = nul
+RCDEFINES = $(D_RCDEFINES)
+!else
+CFLAGS = $(CFLAGS_R_WEXE)
+LFLAGS = $(LFLAGS_R_WEXE)
+LIBS = $(LIBS_R_WEXE)
+MAPFILE = nul
+RCDEFINES = $(R_RCDEFINES)
+!endif
+!if [if exist MSVC.BND del MSVC.BND]
+!endif
+SBRS = QTIME.SBR
+
+
+WINSOCK_DEP = 
+
+QTIME_DEP = c:\ip_progs\winsock.h
+
+
+QTIME_RCDEP = c:\ip_progs\qtime.ico
+
+
+all:	$(PROJ).EXE $(PROJ).BSC
+
+QTIME.OBJ:	QTIME.CPP $(QTIME_DEP)
+	$(CPP) $(CFLAGS) $(CPPCREATEPCHFLAG) /c QTIME.CPP
+
+QTIME.RES:	QTIME.RC $(QTIME_RCDEP)
+	$(RC) $(RCFLAGS) $(RCDEFINES) -r QTIME.RC
+
+
+$(PROJ).EXE::	QTIME.RES
+
+$(PROJ).EXE::	QTIME.OBJ $(OBJS_EXT) $(DEFFILE)
+	echo >NUL @<<$(PROJ).CRF
+QTIME.OBJ +
+$(OBJS_EXT)
+$(PROJ).EXE
+$(MAPFILE)
+.\+
+C:\MSVC\CDK16\LIB\+
+C:\MSVC\LIB\+
+C:\MSVC\MFC\LIB\+
+..\WINSOCK.LIB+
+$(LIBS)
+$(DEFFILE);
+<<
+	link $(LFLAGS) @$(PROJ).CRF
+	$(RC) $(RESFLAGS) QTIME.RES $@
+	@copy $(PROJ).CRF MSVC.BND
+
+$(PROJ).EXE::	QTIME.RES
+	if not exist MSVC.BND 	$(RC) $(RESFLAGS) QTIME.RES $@
+
+run: $(PROJ).EXE
+	$(PROJ) $(RUNFLAGS)
+
+
+$(PROJ).BSC: $(SBRS)
+	bscmake @<<
+/o$@ $(SBRS)
+<<
