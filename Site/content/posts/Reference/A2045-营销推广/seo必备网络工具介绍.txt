@@ -1,0 +1,779 @@
+综合查询工具
+
+网站收录查询
+同时查询网站在Google、百度、Yahoo等8个搜索引擎中的收录情况
+http://tool.cndw.com/Shoulu/Index.asp
+
+关键词排名查询
+在Google、百度、Yahoo等多个搜索引擎中查询指定网页、指定关键词的排名情况
+http://www.seores.com/search/keywordrank.asp
+
+搜索引擎优化监视器(SEO Monitor)
+一个仅300多KB的小软件，可以在多个搜索引擎中，查询多个关键词的排名情况，并记录历史排名情况供参考
+http://www.seobbs.net/read.php?tid=2490
+
+
+域名Whois/IP工具
+最详细的Whois/IP工具，包括很多实用数据。
+http://whois.domaintools.com
+
+
+搜索引擎抓取内容模拟器
+可以模拟蜘蛛抓取指定网页，包括Text、Link、Keywords及Description信息等。
+http://www.webconfs.com/search-engine-spider-simulator.php
+
+页面相似度检测工具
+检验两个页面的相似度（如果相似度达80%以上，将可能受到惩罚）
+http://www.webconfs.com/similar-page-checker.php
+
+Sitemap 制作工具
+在线创建 Sitemap 网站地图文件
+中文:http://www.xinqj.com/sitemap/sitemap.asp
+英文:http://www.xml-sitemaps.com/
+在线创建Sitemap可能会有一些限制，推荐使用下面的离线工具：
+Google SiteMapBuilder .Net
+Sitemap 网站地图文件创建软件，可以很方便XML格式、txt格式的Sitemap
+http://www.seobbs.net/read.php?tid=10620
+注意：此软件工作于.Net 1.1 环境，2.0下无法运行。
+
+
+关键词工具
+
+Google Adwords关键词工具
+查询指定关键词的扩展匹配，并可以根据词义进行扩展，显示出搜索量、竞争度和受欢迎度
+https://adwords.google.com/select/KeywordToolExternal
+
+百度相关搜索
+按热门程度排序，列出指定关键词相关的扩展匹配及热门程度
+http://d.baidu.com/rs.php
+
+百度指数
+以图表的形式显示指定关键词在百度中的关注度、媒体关注度，登录后可以定义列表。
+http://index.baidu.com/
+
+关键词密度分析工具
+分析指定关键词在指定页面中出现的次数,及相应的百分比密度
+中文：http://tool.cndw.com/Seo/Key_Density.asp
+英文：http://www.keyworddensity.com/
+
+关键词热门排行及指数
+谷歌热榜：http://www.google.cn/rebang
+百度排行榜：http://top.baidu.com
+
+Overture关键词工具：http://inventory.overture.com/d/searchinventory/suggestion/
+Yahoo排行榜:http://misc.yahoo.com.cn/top_index.html
+搜狗指数：http://www.sogou.com/top/
+搜搜龙虎榜：http://www.soso.com/lhb/s_i_sosolhb.shtml
+
+
+Google相关工具
+
+Google网站管理员工具
+Google为站长提供的一个很有价值的平台，是站长了解Google、与Google对话的窗口。
+https://www.google.com/webmasters/tools/
+
+Google Analytics
+Google推出的免费分析服务，对市场营销和内容优化上提供很多专业报表
+http://www.google.com/analytics/zh-CN/
+
+Google Dance 查询工具
+不仅可以查询Dance情况，还可以通过E-mail及时获得每月google dance通知
+http://www.seochat.com/googledance/
+
+GOOGLE PageRank工具
+SEOChat.com提供的免费工具，可以查询在Google多个服务器上的PR值
+http://www.seochat.com/seo-tools/future-pagerank
+
+SEOChat.com提供的免费工具，可以同时查询多个域名的PR值
+http://www.seochat.com/seo-tools/pagerank-lookup/
+
+SEOChat.com提供的免费工具，可以查询网站中各页面的PR情况
+http://www.seochat.com/seo-tools/pagerank-search/
+
+Google PR历史更新时间表
+查看Google从2000年至今，更新PR的具体时间和周期时长
+http://www.seocompany.ca/pagerank/page-rank-update-list.html
+
+
+链接工具
+
+链接广泛度检测工具
+反向链接查询工具，同时支持Google、百度、Yahoo等多个搜索引擎
+http://tool.cndw.com/LinkIn/Index.asp
+
+查询Google中反链的工具，可以抓取文本标题和链接（中文标题显示的是乱码）
+http://www.webconfs.com/google-backlink-checker.php
+
+Yahoo新推出的链接检查工具,可以查询网站中所有被检索的页面以及反向链接情况
+http://siteexplorer.search.yahoo.com/
+
+无效链接检查工具
+Xenu Link Sleuth
+http://www.seobbs.net/read.php?tid=2307
+W3C GLink Checker
+http://validator.w3.org/checklink
+
+
+其他工具
+
+国外主要搜索引擎和人工目录的关系表
+2个Flash，解析国外主流搜索引擎与人工目录的关系，对海外推广很有帮助
+http://www.seobbs.net/read.php?tid=911
+
+网站历史查询工具
+美国互联网档案馆(The Internet Archive)保存了自1996年开始,借助Alexa搜索引擎获取的网站资料
+http://web.archive.org/collections/web/advanced.html
+
+
+Alexa世界排名查询
+http://alexa.chinaz.com/
+http://www.pgksl.com
+关键词位置、密度、处理
+
+URL中出现关键词（英文）
+网页标题中出现关键词（1-3个）
+关键词标签中出现关键词（1-3个）
+描述标签中出现关键词（主关键词重复2次）
+内容中自然出现关键词
+内容第一段和最后一段出现关键词
+H1，H2标签中出现关键词
+导出链接锚文本中包含关键词
+图片的文件名包含关键词
+ALT属性中出现关键词
+关键词密度6-8%
+对关键词加粗或斜体
+
+内容质量、更新频率、相关性
+
+原创的内容最佳，切忌被多次转载的内容
+内容独立性，与其他页面至少30%互异
+1000-2000字，合理分段
+有规律更新，最好是每天
+内容围绕页面关键词展开，与整站主题相关
+具有评论功能，评论中出现关键词
+
+导入链接和锚文本
+
+高PR值站点的导入链接
+内容相关页面的导入链接
+导入链接锚文本中包含页面关键词
+锚文本存在于网页内容中
+锚文本周围出现相关关键词
+导入链接存在3个月以上
+导入链接所在页面的导出链接少于100个
+导入链接来自不同IP地址
+导入链接自然增加
+锚文本多样化（如，SEO和SEO十万个为什么）
+Google Analytics 网站流量分析：http://www.google.cn/analytics/zh-CN/
+
+Google Analytics 简介：
+
+
+
+Google 分析是 Google 提供的一款免费的网站流量分析工具。
+
+目前，对于没有 Google Adword 账户的用户每日限制500万PV的统计，Adword 用户则没有限制。
+
+操作简单：只需把一个js代码放入需要统计的每一个页面。
+
+可以选择时区。
+
+分析非常全面精确。
+
+在业界深受好评。
+
+
+Google Analytics 功能（Google Analytics 功能非常强大，这里主要列出与 SEO 有关的几点）：
+
+   1. 加载分析代码，对网页速度影响不大。
+   2. 详细的流量来源数据分析，包括：直接点击、搜索引擎、推介、Adword、其他等。
+   3. 每个关键字的流量数据分析，包括：当天搜索量、某时间段内搜索流量趋势、流量地区分布、各搜索引擎相对关键字、跳出率。
+   4. 提供推介网站的来源链接。
+   5. 提供每个页面的浏览量。
+   6. 分析用户在网站的平均停留时间、新访问量所占百分比、用户地图分布、电子商务转换率。
+   7. 对用户客户端进行分析。
+   8. 可以多用户（不同帐号）一起查看分析数据。
+
+Google Analytics 注册和使用：
+
+   1. 访问 http://www.google.com/analytics/zh-CN/ 。
+   2. 输入 Google 帐户的电子邮件和密码直接登录，如果没有 Google 帐户，则注册创建一个。
+   3. 注册时，记得从下拉列表中选择 http:// 或 https://，然后输入你的网址。在帐户名称字段中为该帐户输入一个别名，然后点击继续，输入联系方式。
+   4. 同意服务条款，提交注册，完成。
+　网站内容是搜索引擎优化的第一要素
+　　1. 大量的原创内容能够帮助你在客户的心里建立良好的信誉和权威的地位。
+　　2. 其他的站长会自动的链接到你的网站。
+
+　　SE判断文章原始出处的方法：
+　　1. 网页PR值。
+　　2. 网页第一次被收录的时间。
+　　3. 域名注册时间。(百度似乎认为域名比较老的就是原创)
+　　4. 网站的权威度。
+
+　　关键词的选择：
+　　1. 关键词不要太宽泛
+　　2. 主打关键词也不适于太长太特殊，例如公司名称(知名品牌出外)
+　　3. 站在用户角度思考，专业名词用户不会搜索，例如SEO
+　　4. 最有效率的关键词就是那些竞争网页最少，同时被用户搜索次数最多的词。
+　　5. 和你的网站要相关
+
+　　职业SEO应该学习的知识：
+　　1. 市场营销 + 网页制作 + 简单的网站程序编写 + SEO技术
+　　2. 项目组织和协调 + 关注搜索引擎优化技术的新发展 + 写作能力
+
+　　怎样治疗网站内容缺乏症：
+　　1. 从产品历史和沿革出发
+　　2. 从制造、发明产品的人出发
+　　3. 从原材料出发
+　　4. 从客户出发
+　　5. 从本行业出发
+　　6. 从产品用途出发
+　　7. 从产品技术出发
+
+　　网站被惩罚或被封该怎么办：
+　　1. 首先确定你的网站是完全被封，还是只是排名下降。直接搜索一下域名或URL;用site：指令查一下;用网页上某一句独特的话搜索一下(例如版权信息);
+　　2. 检查服务器设置、robots.txt文件、网站是否过度优化(过度优化现在往往是排名被惩罚的重要原因)。
+　　3. 是否有可疑的页面转向?有大量交叉链接?链接向其他有作弊嫌疑的网站?
+　　4. 是否被若为复制内容网页?
+　　5. 是否用了隐藏网页?大量垃圾链接?
+　　6. 其他作弊手段;
+
+　　高质量的外部链接来自：(你可以反过来思考，不包括的哪些)
+　　1. 开放目录;
+　　2. 其他站对你的新闻介绍;
+　　3. 权威网站的商业链接;
+
+　　如何写TITLE：
+　　1. 每个页面要不一样，并且符合页面内容;
+　　2. 吸引人，排在搜索结果第一页第一屏，客户点哪个就看标题了;
+　　3. 标题标签中应该含有关键词，并且顺口;
+　　4. 普遍TITLE结构：文章名 - 分类名 - 网站名;例如：胎教音乐下载 – 胎教方法 – 妈妈帮
+　　5. 别堆砌关键字。
+
+　　搜索引擎对“导入链接”的分析可能包含：
+　　1. 导入链接数目
+　　2. 导入链接本身的重要性，也就是链接向你的网页本身的重要性
+　　3. (这两点也就形成了Google PR，但后面的这些因素都和PR没有直接关系。)
+　　4. 反向链接增加的速度
+　　5. 反向链接所在网站本身的内容主题
+　　6. 反向链接所在页的内容是否相关
+　　7. 反向链接的链接锚文字
+　　8. 反向链接锚文字前后周围的文字
+　　9. 链接在页面的位置
+　　10. 反向链接所在的域名年龄
+　　11. 反向链接所在的域名是否曾经转手
+　　12. 反向链接所在页第一次被收录的日期
+　　13. 反向链接所在页页面内容是否曾经有变化?有什么样的变化?
+　　14. 反向链接第一次出现在页面上是什么时候15. 链接文字是否曾经变化?变化是什么?
+　　16. 反向链接所在页还链接向哪些其他网站?这些其他网站内容是否相关?质量怎么样?
+　　17. 反向链接是否有垃圾链接嫌疑?比如来自论坛签名，博客等地方。
+　　18. 链接点击率19. 用户点击链接后在你的网站停留多长时间
+以下seo常用工具是湖北九头鸟seo团队成员，平时用过的。今天我们将他收集一起 
+打包，希望能为初学seo的朋友提供方便。 
+
+一、综合常用工具： 
+
+站长帮手：http://www.linkhelper.cn/ 
+站长工具：http://tool.admin5.com/ 
+站长工具：http://tool.admin5.net/ 
+万能百度：http://www.wannengbaidu.com/ 
+站长之家：http://www.95dz.net/ 
+
+二、Seo优化工具 
+
+谷歌pr值查询http://link.kuww.net/pr.asp 
+谷歌pr值预测http://www.123cha.com/google_pagerank/ 
+站长帮手          http://indexed.linkhelper.cn/searchkeywords.asp 
+网站反链查询 
+
+三、关键词页面优化工具 
+
+关键词热度查询工具 http://key.001pp.com 
+                    http://index.baidu.com 
+关键词密度查询工具 http://tool.alimama.com/keyword/mopa.blogbus.com/ 
+http://www.seoall.com.cn/changyonggongju/guanjiancimiduchaxun.htm 
+网页减肥工具               http://www.wh-seo.com/seo-Tools/seogongju.rar 
+
+四、网站排名查询工具 
+
+Alexa排名查询 http://tool.cnzz.cn/alexa/ 
+                http://tool.alimama.com/alexa.php 
+
+五、网站价值估算查询工具 
+
+  网站价值评估工具http://www.pipiki.com 
+                    http://www.itcups.com/SitePrice.aspx 
+
+六、网站提交工具 
+
+Dmoz中文网址提交http://www.dmoz.org/World/Chinese_Simplified/ 
+Google中文登录地址http://www.google.com/intl/zh-CN/add_url.html; 
+百度Baidu.com登录:http://www.baidu.com/search/url_submit.html; 
+hao123.com网址之家：http://post.baidu.com/f?kw=hao123 
+雅虎登录地址: http://misc.yahoo.com.cn/search_submit.html; 
+Yahoo搜索引擎:http://search.help.cn.yahoo.com/h4_4.html 
+搜狐登录地址: http://db.sohu.com/regurl/regform.asp?Step=REGFORM&class=; 
+搜狐/搜狗(Sogou):http://db.sohu.com/regurl/regform.asp/ 
+网易有道:           http://tellbot.yodao.com/report/ 
+新浪搜:            http://iask.com/guest/add_url.php 
+爱问登录地址:iask.com http://iask.com/guest/add_url.php; 
+TOM登录地址: http://search.tom.com/tools/weblog/log.php; 
+天网登录地址: http://home.tianwang.com/denglu.htm; 
+中搜搜：             http://ads.zhongsou.com/register/page.jsp 
+MSN搜索:          http://beta.search.msn.com.cn/docs/submit.aspx?FORM=WSDD2/ 
+alexa搜索引擎:http://www.alexa.com/site/help/webmasters 
+奇虎论坛:           http://bbs.qikoo.com/usercomit.html/ 
+
+七、英文关键词查询工具 
+
+雅虎英文搜索http://search.yahoo.com/?ek=0 
+可能很多新手做站的站长对友情链接的管理还不太懂，别人忽悠了他自己还不知道。现在有很多站长非常无德，尤其以公司为主，他们的管理员经常会把对方的站点链接无故删除也不通知。下面来谈谈我是如何有效管理友情链接的。
+
+1、首先要看对方的站点是否被收录：如果对方的站点未被百度，Google，Yahoo收录则要考虑他的站点是否因为作弊而被K，这样的链接要慎重考虑。查询收录的方法：进入各个搜索引擎输入site:www.sucai.com来查询，如果有返回值表示已经收录，否则未收录。
+
+2、查看对方的链接是否有效：不能只看他的网页是否有你的链接，现在很多站长采用调用的方式，表面上看是做了你的链接，实际上这种方式做的链接，搜索引擎是抓不到的，所以这种链接不要做。查看方式：查看对方的原代码，看能否找到你的链接代码，例如我的站链接是这样的：试验箱，如果找不到，则对方就是用了这种调用的方式，其中最常用的是JS调用，格式如下：
+
+3、查看对方链接的质量：根据PR的得分规则，一个站点的输出链接越多，则他可给对方的PR得分则越低，而且引擎对一个页面的链接数量的索引也有上限，如果太多，则可能被抛弃，建议一个页面最多的链接不要超过100个，其中包括自己的站内链接，否则效果就很差了。
+
+4、PR在SEO的重要性：很多站长交换链接的时候要求PR达到多少，少了就不做，我认为这是个严重的误区，在SEO中有质量的外链越多越好，并没有规定PR要达到多少，个人认为PR对SEO是不起作用的，建议站长把PR高的高质量站点做在首页，PR值低的做在内页，这样既不影响整体的效果也可以增加更多的外部链接。
+
+5、ALEXA排名在SEO中的重要性：很多站长在交换的时侯要求ALEXA达到几万名以内，这也是一个误区，ALEXA如果排名高确实可以反映一个站的质量，也可以给SEO增加权重，不过那也仅局限在一万名以内的站点，超过一万名的站点对 SEO来说，和100万的站点没有什么区别，而且ALEXA的作弊方式广为流传，想把一个新站刷到一个10万的排名也不是什么难事。
+
+6、同类站点的重要性：很多站长要求同类做首页，非同类的做内页，同类站点固然好，但是要了解对方的质量问题，只要是高质量的站点，即便不是同类，那也要欢迎人家和你交换首页，当时有人说我的企业站与他们不是同类，不做主页，可以这样反驳：百度和你也不是同类，如果百度要和你交换首页你也不换吗?对方还能说什么呢。
+
+7、避免潜在的危险性：现在有很多类型的站点都存在随时被K的可能性，例如：美女图片类，色情类，私服类，彩票类，赌博类等可能涉及到违法，打着擦边球的站点建议不要去和他们交换，如果他们的站点被K，你又不知情，随时可能被连累。
+
+8、通过链接提高排名：如果你要提高某个关键词的排名,那你就把这个关键词作为链接的锚文字，尽量使用文字链接，如果必须使用图片链接，一定要记得加上alt属性，例如：alt="关键词"。
+
+最后提醒一下，要养成经常检查链接的习惯，在做链接的时候可以用EXCEL做个档案统计一下，定期检查一下链接。
+现在越来越多的新手站长加入到个人站长这个领域，其中很大一部分是没有任何建站基础的，下面玉迪以一个“过来人”的身份和大家探讨一下学习的建站技术的基本步骤和具体的时间安排： 本站所提供的摄影照片，插画，设计作品，如需使用，请与原作者联系。 
+
+1、html（3天） . 
+
+  . 
+
+是最简单易学的，不需要过多的时间，一天就能了解，三天就能掌握。 特别注意：本站所有转载文章言论不代表本站观点，本站所提供的摄影照片，插画，设计作品，如需使用，请与原作者联系. 
+
+2、学习ps（7天） 版权申明：本站文章均来自网络,本站所有转载文章言论不代表本站观点 
+
+能用ps切图设计出漂亮的table页面。什么？不符合web标准?不是div+css?
+ 
+因为表格做的网页很直观，新手很容易理解，ps网页界面，只要有一点平面设计基础的都能很快掌握，结
+合代码能更加熟悉html的相关细节。这个过程大概需要7-10天时间，具体地，可以每天做一个网站首页，从简单的做起，如果能做的像网页截图那样。那就完美了，中间可以参杂着做网站导航栏、按钮效果、等等。要是没有ps基础的朋友，可以适当延长时间安排。 .. 
+
+  . 
+
+
+3、学习css（重点10天） ! 
+
+特别是想做职业站长的新手们，div+css技术是必学的，也是最要下功夫来学的，这里我说一下，css入门很容易，就是那么几个属性，而且在网页编辑软件里都有直接输入数值的面板，我个人认为css的难点在于页面的整体性，要从整个页面甚至整个站点的高度设计规划css，并能熟练的运用各种技巧实现网页样式与布局的变化，包括考虑到浏览器的兼容性，这些都还是需要一定的时间的，一定熟练的作品才能学成。学习css可以考虑买本书来学习，书中的理论知识能帮助你理解每个布局代码的含义。 版权申明：本站文章均来自网络,本站所有转载文章言论不代表本站观点 
+
+  特别注意：本站所有转载文章言论不代表本站观点，本站所提供的摄影照片，插画，设计作品，如需使用，请与原作者联系 
+
+
+4、学习javascript+flash（7天） 特别注意：本站所有转载文章言论不代表本站观点，本站所提供的摄影照片，插画，设计作品，如需使用，请与原作者联系. 
+
+javascript就是常说的js，如网页的调用幻灯片、调用最新记录、调用评论数等等，这些“调用”都是通过javascript来实现的，javascript是运行与客户端的脚本，学习它能做出很多网页特效，而且它相对简单易学（不包括ajax的高级功能），对于想学习程序代码的朋友，从javascript入手是个不错的选择。我们并不需要很熟练，只要相对了解就行了。能看懂一般的js代码，并能自己写出一小段js的程度就基本够用了。学习完js和photoshop之后再学习一下flash的制作和使用，以便能制作出banner或其它广告条，并不需要达到制作动画片的水平。 [中国站长站] 特别注意：本站所有转载文章言论不代表本站观点，本站所提供的摄影照片，插画，设计作品，如需使用，请与原作者联系. 
+
+5、学习cms程序（8天） . 
+
+  。 
+
+学完以上技术之后，你的网页基本知识应该算比较牢固了，动态网页需要程序的支持，程序相对比较复杂，要从零基础到用自写程序开发网站，那对于新手站长来说技术门槛太高了，所以现在源码下载站人气比较高。提倡的解决方案就是利用时下比较流行的cms建站程序，用他们可以自定义出几乎任何类型的站点。这里的学习方法，就是到各大cms论坛去找相关教程和帮助文件了。最后提一句，自己用cms做出的网站比什么源码下载都要好，最重要的是自己学会了建站技术，心中的成就感和对网站的可操控感也是相当的好。 版权申明：本站文章均来自网络. 
+
+现在网络世界真的很丰富，几乎没有一个新手会老老实实的从html一直学到能利用cms做出各种功能的网站，现在的现象往往是： . 
+
+  。 
+
+刚刚接触建站，就看别人怎么做SEO了。 ! 
+
+刚刚了解了一下html，就去站长类的论坛灌水了。 根据专家观察，这样的理论和现象都是值得各位站长深思的，所以希望大家多做研究学习，争取总结出更多更好的经验! 
+
+刚刚了解了某cms的模板机制，就到处看别人的网站，说“这我也能做出来”。 
+想做网站的很多都是受到成功人士的刺激，许多人都有着类似下面的思想： . 
+
+  .. 
+
+
+“某某做网站，做成了亿万富翁，我不用那么多，做个百万富翁就不错了。” . 
+
+“中国有那么多网名，每个人给我一块钱，那不就发财了，我也要做个网站。” .. 
+
+想法是没错，但自己的网站连个策划都没有，凡事都要采取行动，不是光想就能出来的。 做每一件都必须一步一个脚印，有计划的进行。我相信每一个成功者都有他成功的理由。
+想建站的朋友，对网络怀揣梦想的朋友，特别是刚刚加入个人站长这个领域的朋友，我劝大家还是以学习为主，先了解基本的建站知识，大体按照上文所叙述的学习流程，做好每天的计划，相信一个多月以后的你会更加强大！届时再做出更受网友欢迎的网站，最终达到盈利。 . 
+
+链接交换的注意事项
+　　在交换连接时候，还有另外几点可以参考： 　　一、PR值很重要,PR值范围从0-10。大家在交换链接的时候，往往要求对方的流量多少，其实流量并不重要，重要的是PR值，要多找PR值高的站做链接； 　　二、关于链接站的类别问题。大家在交换链接的时候，往往不分类别，其实这是不对的，一定要找自己的同类站，这样有利于搜索引擎的收录和排名。当然，有链接交换总比没有链接要好。 　　三、交换链接要注意质量。链接并不是越多越好，要精。对于对方的站，即使PR值很高，但是连接很多（例如超过50个），也就意义不大了，平均到每个站上PR值就几乎没有了，对方的链接越少越好。 　　四、不要和作弊网站交换链接，特别是被baidu，google屏蔽的网站（这些网站网页收录数目都是0。注意：google更新收录数目通常要1个月的时间，百度约1周更新一次） 　　五、使用友情链接交换平台进行交换链接，可以省时，省力，省心。 　　六、.应该考虑友情链接在搜索引擎中的收录数量和反向链接。如果一个网站的PR能达到5甚至5以上，但是他的收录数量或者反向链接确很少的话，那我们就得考虑该网站是否有PR劫持的作弊手段来获得高PR的。 　　七、.现在大家都知道，如果你的友情链接被百度降权的话，那么你的网站可能会受到牵连。所以我们在交换友情链接的时候，需要看下该网站在百度的收录数量，如果收录数量只有1的话，很有可能是降权。另外，看下首页在百度的快照日期，如果快照日期超过一个星期甚至更长时间的话，那么这个网站有可能被百度降权。 　　八、我们需要查看该网站已经存在的外链数量。如果这个网站的PR虽然有5，甚至更高，但是如果这个网站的友情链接已经达到几百甚至上千，你是否得考虑下有必要跟这个网站交换友情链接么? 　　从上面几点，我们可以看到，在交换一个友情链接的时候，需要做的工作是很多的，需要在很多搜索引擎查询对方的收录数量和反向链接，需要查询对方网站的pr，需要查询对方网站的首页的百度快照日期，而要数数对方网站已经有多少的外链的话，这个恐怕就比较困难了。这里推荐一个友情链接检查工具，让工具去帮大家做这些繁琐的事情，以免让大家在交换友情链接的时候上当。工具是由站长帮手网提供的，大家可以去百度搜索一下，挺好用的。
+[编辑本段]交换友情链接终极技巧大全
+　　一、交换友情链接的目的 　　1、提升PR。这是交换友情链接最根本的目的。如果不知道什么是PR值的，请看最下面的名词解释。 　　2、提高关键字排名。这也是目的之一，其重要性不必赘述，有关关键字优化的技巧，参看笔者以前的文章《江礼坤：在搜索中如何提高关键字排名》。 　　3、提高网站权重。这点很重要，只有你的权重高了，搜索引擎才会重视你。 　　4、提高知名度。这条还是比较有针对性的，对于一些特定的网站和特定的情况，才会达到此效果。比如一个不知名的新站，如果能与新浪、SOHU、YAHOO、网易、腾讯等大门户全都做上链接的话，那肯定对其知名度及品牌形象是一个极大的提升。 　　5、提高流量。这条几乎可以忽略不计，但是之所以写上，是因为很多新人有个误区，以为换友情链接是为了增加流量，所以在这里严重纠正一下，友情链接对于流量的提升帮助非常小，如果友情链接带来的那几个IP能影响到您网站的流量话，那这个网站有没有存在下去的必要就很值得商榷了。其实笔者刚学习建网站时，也是这么认为的：（ 　　二、什么是优质的链接 　　1、Alexa排名。Alexa排名代表的是流量，当然，有人说了，不少网站的排名是通过作弊得来的，看这个没意义。有排名的网站确实不一定有流量，但是没排名的网站一定没流量。至于与排名多高的网站交换适宜，没有明确的标准，笔者认为别比你自己网站的排名低太多就成。 　　2、PR值。这个代表的是网站的权重，只有与权重高的网站交换链接，才会提升自己的权重。通常来说，只要对方的PR值比自身高就可以换。不过笔者认为至少应该达到4才算是一个优质的链接。 　　3、知名度。对方网站最好具有一定的知名度，或在行业内具有一定的影响力。 　　4、关联性。对方网站的主题内容要与我方网站有一定的关联性。 　　6、网页快照。对方的网页快照时间，最好在三天之内。 　　7、收录数。第一，搜索引擎的收录数与其网站的实际内容数，不应该相差太大。第二，对方网站在百度与GOOGLE的收录数最好不要相差太大，这个可以参考其同类网站的在不同搜索引擎的收录比例。 　　8、更新速度。对方网站的内容最好是天天有更新，只有天天更新的网站，搜索引擎才会重视，用户才会喜欢，链接了也才有价值。 　　三、坚决不换的链接 　　1、假PR。通常假PR是指利用PR劫持技术去欺骗PR值的一种手段。不过识别也是很容易的，有很多在线的识别工具。 　　2、导出链接太多。即使对方的PR值是10，但是如果有几百个链接的话，那实际上分到你头上也没多少了。 　　3、内页链接。坚决不做内页链接，内页链接往往是没有任何意义的。因为专门的友情链接页，不会每天更新，而且通常友情链接页也没有很高的PR值。 　　小贴士：本文系推一把创始人、蓝色烽火成员江礼坤原创，想看更多文章请搜索推一把或江礼坤，或登陆江礼坤(拼音)点卡母。转载时请保留此版权信息。 　　4、JS链接。这个坚决不能换，搜索引擎是根本看不到JS里面有什么的。搜索引擎看不到，也就意味着这个链接无效。 　　5、没有PR值的页面坚决不换。之所以把这条写出来，是因为很多新人呀，以为对方网站只要有PR，那和他的任何页面换了就有效果，其实不是这样的，一定要与对方那个有PR值的页面直接交换才行。各位看官莫笑，确实很多新人有这个误区。 　　四、获取链接的渠道 　　1、个人关系。新网站没有PR值、没有排名、没有流量，所以肯定没人愿意和你换了。所以这个时候只能靠个人关系了，有时候为了生存，只能先把面子放兜里了。 　　2、QQ群。多加一些相关的网站群，多在群里互动。说不定就能聊出来几个白送的链接。 　　3、专门的链接网站。现在专门交换友情链接的网站、论坛有很多。像推一把论坛，就有专门的友情链接版块，欢迎大家使用。 　　4、资源互换。如果实在搞不到链接，只有想办法资源互换了。比如说你的文笔很好，那帮别人写一篇软文，换一篇链接。 　　5、购买链接。如果上述方法都不行，只有花钱买啦。现在卖链接的很多，价钱也比较透明。一般一个优质的PR5链接，在百元以上，差一点的则是几十元的样子。买链接时注意以下几点： 　　A、不要一次买太多，容易被K，一点一点的买。 　　B、不要图便宜买一些质量不好的链接。 　　C、最好在PR值更新前一个月再买，这样就可以省两个月的钱了。 　　D、当PR值被带起来以后，赶紧去换一些优质的链接回来。毕竟长期靠花钱买链接，成本也太高了点。 　　四、相关名字解释 　　1、什么是外链：外链也叫外部链接，或是反向链接。是指非本地站点以外的链接。凡是外部网站链接自己站点的链接，都称之为外链。 　　2、什么是PR值：PR值全称为PageRank，网页的级别技术。是Google用于评测一个网页“重要性”的一种方法，级别从1到10级，10级为满分。PR值越高说明该网页越受欢迎（越重要），同时也将在搜索引擎中获得更好的排名。 　　3、什么是网站权重：搜索引擎给网站(包括网页)赋予一定的权威值，对网站(含网页)权威的评估评价，一个网站权重越高，在搜索引擎所占的份量越大，在搜索引擎排名就越好，提高网站权重，不但利于网站(包括网页)在搜索引擎的排名更靠前，还能提高整站的流量，提高网站信任度所以提高网站的权重是相当重要。 　　简单的说，权重即网站在SEO中的重要性，权威性。权重不等于排名，但权重对排名有着非常的大影响，整站权重的提高有利于内页的排名。 　　4、什么是网页快照：通俗的说，网页快照就是搜索引擎在收录网页时，都会做一个备份，大多是文本的，保存了这个网页的主要文字内容，这样当这个网页被删除或连接失效时，用户可以使用网页快照来查看这个网页的主要内容，由于这个快照以文本内容为主，所以会加快访问速度。 　　5、什么是PR值劫持：也就是用欺骗手段获得工具条上比较高的PR值显示。方法是利用跳转。一般搜索引擎在处理301和302转向的时候，都是把目标URL当作实际应该收录的URL。当然也有特例，不过在大部分情况下是这样处理的。所以如果你从域名A做301或302跳转到域名B，而域名B的PR值比较高，域名A在PR更新后，也会显示域名B的PR值。最简单的就是先做301或302跳转到高PR的域名B，等PR更新过后，立刻取消转向，同时也获得了和B站相同的PR值。这个做假的PR显示值至少维持到下一次PR更新，一般有两三个月或更长的时间(最近GG更新有点慢)。 　　更隐讳一点的办法是，通过程序检测到Google蜘蛛，返回301或302转向，对普通访问者和其他蜘蛛都返回正常内容。这样我们看到的是普通网站，只有Google会看到转向。
+[编辑本段]链接公约
+公约内容
+　　(以下是链接公约V1.02版本) 　　1,双向链接须双方协商一致(口头协议亦可),双方都有义务保证对方证链接的稳定性. 　　2.双向链接必须保证链接无欺骗性.双方都有权利定期检查链接状况,一旦发现异议,在对方知情的情况下,方可取消对方链接. 　　3,单向链接便无需对方知情,但必须保证与对方的利益以及名誉没有任何冲突,否则应当立即取消链接. 　　4.交差链接时(两方或两方以上),其中一方因故停止链接时,其它链接方都有权利停止链接.但任何一方停止链接时,应及时的通知到其它方. 　　5.无论收费链接或免费链接,站主都有义务保证链接无误导性.不可因其它原因而误导用户去点击或者浏览,以赚取利润及流量.
+SEO工具大全(一)
+    网络    2007-9-6 11:32:22    点击率: 1040 
+    内容与结构工具
+
+    搜索引擎抓取内容模拟器
+
+    可以模拟蜘蛛抓取指定网页Text,Link,Keywords及Description信息
+    http://www.webconfs.com/search-engine-spider-simulator.php
+
+    相似页面检测工具
+
+    检验两个页面的相似度.如果相似度达80%以上,将可能受到惩罚
+    http://www.webconfs.com/similar-page-checker.php
+
+    Google Sitemaps 在线创建
+
+    在线创建 Google Sitemaps 网站地图文件
+
+    中文:http://www.xinqj.com/sitemap/sitemap.asp
+
+    英文:http://www.xml-sitemaps.com/
+
+    Google Sitemaps Builder .Net
+
+    Google Sitemaps 创建软件, 可以很方便的创建网站的Sitemaps
+    http://www.seobbs.net/read.php?tid=10620
+
+    综合查询工具
+
+    网站收录查询
+
+    同时查询Google,百度,Yahoo等8个搜索引擎的收录状况
+    http://tool.cndw.com/Shoulu/Index.asp
+
+    关键词排名查询
+    
+    可以同时在3个搜索引擎中查询指定网页指定关键词的排名情况.
+    http://www.seores.com/search/keywordrank.asp
+
+    搜索引擎优化监视器(SEO Monitor)
+
+    一个仅321K的小软件,可以同时查询多个搜索引擎,多个关键词的排名情况.并自动记录历史排名情况.
+    http://www.seobbs.net/read.php?tid=2490
+
+    Google各服务器关键词排名查询
+
+    查询在Google各个服务器中,指定网页指定关键词的排名情况,可以作为一个升降的参考
+    http://tool.cndw.com/Rank/Index.asp
+
+    关键词工具
+
+    Google Adwords关键词工具
+
+    查询指定关键词的扩展匹配,搜索量,趋势和受欢迎度.
+    https://adwords.google.com/select/KeywordToolExternal
+
+    百度相关搜索
+
+    按热门程序排序,列出指定关键词相关的扩展匹配及热门程度
+    http://d.baidu.com/rs.php
+
+    关键词密度分析工具
+
+    分析指定关键词在指定页面中出现的次数,及相应的百分比密度
+
+    中文:http://tool.cndw.com/Seo/Key_Density.asp
+
+    英文:http://www.keyworddensity.com/
+
+    关键词热门排行及指数
+
+    百度排行榜:http://top.baidu.com
+
+    百度指数:http://index.baidu.com/
+
+    Yahoo排行榜:http://misc.yahoo.com.cn/top_index.html
+
+    搜狗指数:http://www.sogou.com/top/
+
+    搜搜龙虎榜:http://www.soso.com/lhb/s_i_sosolhb.shtml
+
+    Google工具
+
+    Google Sitemaps
+
+    Google推出的一项免费服务,一个杰出的SEO工具
+    http://www.google.com/webmasters/sitemaps/docs/zh_CN/about.html
+
+    Google Analytics
+
+    Google推出的免费分析服务.在市场营销和内容优化上提供很多专业报表.对搜索引擎营销有很大帮助.
+    http://www.google.com/analytics/zh-CN/
+
+    Google Dance 查询工具
+
+    不仅可以查询Dance情况,还可以通过E-mail及时获得每月google dance通知
+    http://www.seochat.com/googledance/
+
+    查看在GOOGLE各服务器上的PR值
+
+    利用这个工具,可以判断PR是否更新,预测更新后的PR值
+    http://www.seochat.com/seo-tools/future-pagerank
+
+    Google PR历史更新时间表
+
+    看看Google 2000看至今更新PR的具体时间和周期时长
+    http://www.seocompany.ca/pagerank/page-rank-update-list.html
+
+    链接工具
+
+    链接广泛度检测工具
+
+    反向链接查询工具.同时支持Google,百度,Yahoo等8个搜索引擎
+    http://tool.cndw.com/LinkIn/Index.asp
+
+    查询Google中链接的工具.可以抓取文本标题和链接.中文标题显示的是乱码
+    http://www.webconfs.com/google-backlink-checker.php
+
+    Yahoo新推出的链接检查工具,可以查询网站中所有被检索的页面以及反向链接情况
+    http://siteexplorer.search.yahoo.com/
+
+    同时查询Google,Yahoo,MSN中的链接数量
+    http://www.trafficzap.com/linkpopularity.php
+
+    无效链接检查工具
+
+    检查指定页面内的链接.包括链接有效性检查,链接文字,链接类型
+    http://www.seores.com/search/checkurl.asp
+
+    W3C GLink Checker
+    http://validator.w3.org/checklink
+
+    其他工具
+
+    国外主要搜索引擎和人工目录的关系表
+
+    一个Flash,解析国外主流搜索引擎与人工目录的关系,对海外推广很有帮助
+    http://www.seobbs.net/read.php?tid=911
+
+    网站历史查询工具
+
+    美国互联网档案馆(The Internet Archive)保存了自1996年开始,借助Alexa搜索引擎获取的网站资料
+    http://web.archive.org/collections/web/advanced.html
+    
+    分类目录收录查询
+
+    检查网站是否登录多个重要分类目录
+    http://www.123promotion.co.uk/directory/index.php
+
+    Alexa世界排名查询
+    http://alexa.chinaz.com/Index.asp
+
+
+SEO工具,站长必备
+内容与结构工具
+
+搜索引擎抓取内容模拟器
+
+可以模拟蜘蛛抓取指定网页，包括Text、Link、Keywords及Description信息等。
+http://www.webconfs.com/search-engine-spider-simulator.php
+
+页面相似度检测工具
+
+检验两个页面的相似度（如果相似度达80%以上，将可能受到惩罚）
+http://www.webconfs.com/similar-page-checker.php
+
+Sitemap 制作工具
+
+在线创建 Sitemap 网站地图文件
+
+中文:http://www.xinqj.com/sitemap/sitemap.asp
+
+英文:http://www.xml-sitemaps.com/
+
+在线创建Sitemap可能会有一些限制，推荐使用下面的离线工具：
+
+Google SiteMapBuilder .Net
+
+Sitemap 网站地图文件创建软件，可以很方便XML格式、txt格式的Sitemap
+http://www.seobbs.net/read.php?tid=10620
+
+注意：此软件工作于.Net 1.1 环境，2.0下无法运行。
+
+
+综合查询工具
+
+网站收录查询
+
+同时查询网站在Google、百度、Yahoo等8个搜索引擎中的收录情况
+http://tool.cndw.com/Shoulu/Index.asp
+
+关键词排名查询
+在Google、百度、Yahoo等多个搜索引擎中查询指定网页、指定关键词的排名情况
+http://www.seores.com/search/keywordrank.asp
+
+搜索引擎优化监视器(SEO Monitor)
+
+一个仅300多KB的小软件，可以在多个搜索引擎中，查询多个关键词的排名情况，并记录历史排名情况供参考
+http://www.seobbs.net/read.php?tid=2490
+
+
+域名Whois/IP工具
+
+最详细的Whois/IP工具，包括很多实用数据。
+http://whois.domaintools.com
+
+
+关键词工具
+
+Google Adwords关键词工具
+
+查询指定关键词的扩展匹配，并可以根据词义进行扩展，显示出搜索量、竞争度和受欢迎度
+https://adwords.google.com/select/KeywordToolExternal
+
+百度相关搜索
+
+按热门程度排序，列出指定关键词相关的扩展匹配及热门程度
+http://d.baidu.com/rs.php
+
+百度指数
+
+以图表的形式显示指定关键词在百度中的关注度、媒体关注度，登录后可以定义列表。
+http://index.baidu.com/
+
+关键词密度分析工具
+
+分析指定关键词在指定页面中出现的次数,及相应的百分比密度
+
+中文：http://tool.cndw.com/Seo/Key_Density.asp
+
+英文：http://www.keyworddensity.com/
+
+关键词热门排行及指数
+
+谷歌热榜：http://www.google.cn/rebang
+
+百度排行榜：http://top.baidu.com
+
+Overture关键词工具：http://inventory.overture.com/d/searchinventory/suggestion/
+
+Yahoo排行榜:http://misc.yahoo.com.cn/top_index.html
+
+搜狗指数：http://www.sogou.com/top/
+
+搜搜龙虎榜：http://www.soso.com/lhb/s_i_sosolhb.shtml
+
+
+Google相关工具
+
+Google网站管理员工具
+
+Google为站长提供的一个很有价值的平台，是站长了解Google、与Google对话的窗口。
+https://www.google.com/webmasters/tools/
+
+Google Analytics
+
+Google推出的免费分析服务，对市场营销和内容优化上提供很多专业报表
+http://www.google.com/analytics/zh-CN/
+
+Google Dance 查询工具
+
+不仅可以查询Dance情况，还可以通过E-mail及时获得每月google dance通知
+http://www.seochat.com/googledance/
+
+GOOGLE PageRank工具
+
+SEOChat.com提供的免费工具，可以查询在Google多个服务器上的PR值
+http://www.seochat.com/seo-tools/future-pagerank
+
+SEOChat.com提供的免费工具，可以同时查询多个域名的PR值
+http://www.seochat.com/seo-tools/pagerank-lookup/
+
+SEOChat.com提供的免费工具，可以查询网站中各页面的PR情况
+http://www.seochat.com/seo-tools/pagerank-search/
+
+Google PR历史更新时间表
+
+查看Google从2000年至今，更新PR的具体时间和周期时长
+http://www.seocompany.ca/pagerank/page-rank-update-list.html
+
+
+链接工具
+
+链接广泛度检测工具
+
+反向链接查询工具，同时支持Google、百度、Yahoo等多个搜索引擎
+http://tool.cndw.com/LinkIn/Index.asp
+
+查询Google中反链的工具，可以抓取文本标题和链接（中文标题显示的是乱码）
+http://www.webconfs.com/google-backlink-checker.php
+
+Yahoo新推出的链接检查工具,可以查询网站中所有被检索的页面以及反向链接情况
+http://siteexplorer.search.yahoo.com/
+
+无效链接检查工具
+
+Xenu Link Sleuth
+http://www.seobbs.net/read.php?tid=2307
+
+W3C GLink Checker
+http://validator.w3.org/checklink
+
+
+其他工具
+
+国外主要搜索引擎和人工目录的关系表
+2个Flash，解析国外主流搜索引擎与人工目录的关系，对海外推广很有帮助
+http://www.seobbs.net/read.php?tid=911
+
+网站历史查询工具
+美国互联网档案馆(The Internet Archive)保存了自1996年开始,借助Alexa搜索引擎获取的网站资料
+http://web.archive.org/collections/web/advanced.html
+
+
+Alexa世界排名查询
+http://alexa.chinaz.com/ 
+
+
+网站免费登录中文搜索引擎入口
+登录搜索引擎对于SEO推广网站是很重要的一步。为了方便大家，整理了主要搜索引擎，希望对大家有帮助。以下地址都经过了测试，可以使用，若您在使用时发现死链接，请通知我们，以便更好的为大家服务。同时也欢迎大家推荐好的搜索引擎，在留言本中给我留言就可以了。另外要指出的是，贡献流量的主要是几个著名的搜索引擎，其它的对流量贡献微乎其微。如果您时间不多，大可不必全部登录。当然，如果时间充足，又没有很多推广经费，登录一下也大有好处。 
+
+
+百度免费登录入口 http://www.baidu.com/search/url_submit.htm 
+新浪免费登录入口 http://iask.com/guest/add_url.php 
+
+搜狐免费登录入口http://db.sohu.com/regurl/regform.asp?Step=REGFORM&class= 
+天网免费登录入口 http://home.tianwang.com/denglu.htm 
+雅虎免费登录入口 http://cn.yahoo.com/docs/info/suggest.html 
+Google免费登录入口 http://www.google.com/intl/zh-CN/add_url.html 
+慧聪行业免费登录入口http://202.108.33.161/web/frontward/free/free_speedlogin.asp 
+搜豹免费登录入口 http://search.sobao.com/Computers_and_Internet/Personal/ 
+焦点网免费登录入口 http://search.focus.com.cn/search/search_newurl_register.ecgi 
+协通免费登录入口 http://www.net2asp.com.cn/search/regform.htm 
+银河免费登录入口 http://search.inhe.net/navigate.asp 
+中国假日免费登录入口 http://www.china-holiday.com/newterms/hall/it/sort.asp?sortid=259 
+山西互连网免费登录入口 http://www.shanxi.net.cn/sxhulian/addcate.asp 
+网络奇兵登陆入口http://www.net7b.com/net7b_site/denglu/index.asp 
+6128搜索引擎免费登陆入口http://www.6128.cn/add.htm 
+深圳网狐登陆入口 http://www.szfox.com/search/ 
+中国搜索同盟免费登录入口 http://service.chinasearch.com.cn/w...ree/free_protocol.htm 
+北极星免费登录入口 http://www.beijixing.com.cn/bjx01/search/regi_1.asp 
+亦凡信息娱乐网络－亦凡搜索 http://www.gotofind.com/opendir/ 
+法律网免费登录入口 http://www.law-lib.com/lawseek/wzdl.asp 
+银河免费登录入口 http://search.inhe.net/navigate.asp 
+温州信息港免费登录入口 http://www.wzonline.com.cn/ 
+建设免费登录入口http://www.cnjjl.com/other/ 
+孙悟空免费登录入口 http://www.sunwukong.cn/add.php 
+猫头鹰 http://www.owlchina.com/publish.asp?l=pub 
+凯希 http://www2d.biglobe.ne.jp/~kinryou/cgi/url.html 
+ebsee http://www.ebsee.com/cgi-bin/find/find.cgi?menu=add 
+focus http://search.focus.com.cn/search/search_newurl_register.ecgi 
+zhao5.com登陆入口 http://www.zhao5.com/deng_9.htm 
+三百六十行在线登陆入口 http://www.360hang.com/ 
+中国168免费登录入口 http://www.china168.com/chaoshi/it/regsta1.asp?sortid=242 
+中国车网免费登录入口 http://www.cncar.net/search/addsite.asp 
+绿界免费登录入口 http://ep.sunup.net/add.php 
+天上人间中文搜索引擎 http://www.6mj.com/search/ 
+企业搜索引擎 http://www.shengdarealestate.com.cn/search/sort.asp?sortid=37 
+好东西网址登陆 http://dir.haodx.com/computer/internet/search/search_egines/ 
+中国搜索登陆入口 http://service.chinasearch.com.cn/zhongsou/wzdl/free_protocol.htm 
+网讯快车 http://www.ne163.com/ 
+广东阳江在线 http://www.gdyj.com/ 
+泰达搜索引擎 http://www.tedanet.com/search/index.asp 
+Y28 Search http://www.y28.com/cgi-bin/link/join.pl
+
+ 
+
+
